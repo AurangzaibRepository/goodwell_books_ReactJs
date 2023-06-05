@@ -6,3 +6,8 @@
     padding: 30px 0;
     width: 100%;
 }
+
+#dv-navbar .navbar {
+    border-bottom: 2px solid #00bef4;
+    border-top: 2px solid #00bef4;
+}
