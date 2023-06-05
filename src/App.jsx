@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div id="dv-main" className="container">
+      <div id="dv-main">
         <Routes>
           <Route path="/" />
           <Route path="/books" />
