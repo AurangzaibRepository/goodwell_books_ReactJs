@@ -5,6 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
+import About from './components/About';
 import './App.css';
 
 function App() {
