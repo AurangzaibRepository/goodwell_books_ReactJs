@@ -1,11 +1,15 @@
 import React, { useEffect } from 'react';
 
-useEffect(() => {
-  document.title = 'About';
-});
-
 function About() {
-  return ();
+  useEffect(() => {
+    document.title = 'About';
+  });
+
+  return (
+    <div id="dv-about">
+      sdfsdf
+    </div>
+  );
 }
 
 export default About;
