@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 function About() {
   useEffect(() => {
-    document.title = 'About';
+    document.title = `${process.env.REACT_APP_APP_NAME} - About`;
   });
 
   return (
