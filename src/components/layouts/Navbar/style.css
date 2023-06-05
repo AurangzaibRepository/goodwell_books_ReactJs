@@ -35,3 +35,8 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+#dv-navbar ul a:hover {
+    background: #00bef4;
+    color: #fff;
+}
