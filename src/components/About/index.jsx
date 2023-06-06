@@ -25,10 +25,10 @@ function About() {
           <label className="title mb-5">{data.title}</label>
           <div id="dv-contents">
             <div className="row">
-              <div className="col-md-6 text-center">
+              <div className="col-md-6 text-center pe-0">
                 <img src={picture} alt="author" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 ps-0">
                 <p>{data.description}</p>
               </div>
             </div>
