@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import picture from '../../assets/about/sloman.webp';
 
 function Content({ title, description }) {
   return (
@@ -26,7 +27,7 @@ function Content({ title, description }) {
       </div>
     </>
   );
-};
+}
 
 Content.propTypes = {
   title: PropTypes.string.isRequired,
