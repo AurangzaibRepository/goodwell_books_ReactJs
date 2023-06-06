@@ -30,6 +30,7 @@ function About() {
               </div>
               <div className="col-md-6 ps-0">
                 <p>{data.description}</p>
+                <label className="sub-title mt-4">Events</label>
               </div>
             </div>
           </div>
