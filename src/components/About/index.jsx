@@ -21,7 +21,10 @@ function About() {
     <div id="dv-about">
       {data
       && (
-         
+        <Content
+          title={data.title}
+          description={data.description}
+        />
       )}
     </div>
   );
