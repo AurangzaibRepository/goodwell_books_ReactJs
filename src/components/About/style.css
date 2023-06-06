@@ -1,4 +1,5 @@
 #dv-about #dv-contents {
+    background-image: url('../../assets/about/background.jpg');
     background-size: cover;
     padding: 20px;
 }
