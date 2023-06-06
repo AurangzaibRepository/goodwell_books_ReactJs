@@ -17,3 +17,8 @@
 p {
   font-size: 1.6rem;
 }
+
+a {
+  color: #245a70 !important;
+  text-decoration: none !important;
+}
