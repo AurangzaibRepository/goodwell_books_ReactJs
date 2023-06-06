@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import AboutService from '../../services/AboutService';
+import './style.css';
 
 function About() {
   const [data, setData] = useState();
@@ -21,7 +22,7 @@ function About() {
       && (
         <>
           <label className="title mb-5">{data.title}</label>
-          <div id="dv-contents">asdfds</div>
+          <div id="dv-contents">dfcsd</div>
         </>
       )}
     </div>
