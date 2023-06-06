@@ -1,3 +1,10 @@
 #dv-main {
-  padding: 80px 220px;
+  padding: 70px 220px;
+}
+
+.title {
+  color: #2d2d2d;
+  font-size: 2.8rem;
+  text-align: center;
+  width: 100%;
 }
