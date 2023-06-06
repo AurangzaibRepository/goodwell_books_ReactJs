@@ -28,6 +28,9 @@ function About() {
               <div className="col-md-6 text-center">
                 <img src={picture} alt="author" />
               </div>
+              <div className="col-md-6">
+                <p>{data.description}</p>
+              </div>
             </div>
           </div>
         </>
