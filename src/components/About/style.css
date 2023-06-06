@@ -3,3 +3,7 @@
     background-size: cover;
     padding: 40px;
 }
+
+#dv-about img {
+    width: 60%;
+}
