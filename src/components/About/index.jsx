@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import AboutService from '../../services/AboutService';
 
@@ -16,7 +17,10 @@ function About() {
 
   return (
     <div id="dv-about">
-      sdfsdf
+      {data
+      && (
+        <label className="title">{data.title}</label>
+      )}
     </div>
   );
 }
