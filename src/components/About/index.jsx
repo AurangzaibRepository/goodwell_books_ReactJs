@@ -19,7 +19,10 @@ function About() {
     <div id="dv-about">
       {data
       && (
-        <label className="title">{data.title}</label>
+        <>
+          <label className="title">{data.title}</label>
+          <div id="dv-contents">asdfds</div>
+        </>
       )}
     </div>
   );
