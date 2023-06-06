@@ -20,7 +20,7 @@ function About() {
       {data
       && (
         <>
-          <label className="title">{data.title}</label>
+          <label className="title mb-5">{data.title}</label>
           <div id="dv-contents">asdfds</div>
         </>
       )}
