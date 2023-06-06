@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import AboutService from '../../services/AboutService';
 import picture from '../../assets/about/sloman.webp';
 import './style.css';
