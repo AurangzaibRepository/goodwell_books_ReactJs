@@ -8,3 +8,7 @@
 #dv-about img {
     width: 50%;
 }
+
+#dv-about svg {
+    font-size: 36px;
+}
