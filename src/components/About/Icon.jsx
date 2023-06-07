@@ -21,6 +21,7 @@ function Icon({
 }
 
 Icon.propTypes = {
+  classSpecifier: PropTypes.string,
   url: PropTypes.string.isRequired,
   icon: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
