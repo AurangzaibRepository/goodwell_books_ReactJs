@@ -3,12 +3,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Icon({ url, icon }) {
+function Icon({
+  classSpecifier,
+  url,
+  icon,
+}) {
   return (
     <a
       href={url}
       target="_blank"
       rel="noreferrer"
+      className={classSpecifier}
     >
       <FontAwesomeIcon icon={icon} />
     </a>
