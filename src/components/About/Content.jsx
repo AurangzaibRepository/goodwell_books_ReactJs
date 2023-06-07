@@ -16,8 +16,9 @@ function Content({ title, description }) {
             <img src={picture} alt="author" />
           </div>
           <div className="col-md-6 ps-0">
-            <p>{description}</p>
+            <p className="mb-1">{description}</p>
             <SocialMediaIcons />
+            <br />
             <label className="sub-title mt-4 mb-2">Events</label>
             <p>
               {'Malcolm Gladwell is going on tour. '}
