@@ -26,4 +26,8 @@ Icon.propTypes = {
   icon: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
+Icon.defaultProps = {
+  classSpecifier: '',
+};
+
 export default Icon;
