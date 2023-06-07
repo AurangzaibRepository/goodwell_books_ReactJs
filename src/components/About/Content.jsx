@@ -17,6 +17,7 @@ function Content({ title, description }) {
           </div>
           <div className="col-md-6 ps-0">
             <p>{description}</p>
+            <SocialMediaIcons />
             <label className="sub-title mt-4 mb-2">Events</label>
             <p>
               {'Malcolm Gladwell is going on tour. '}
