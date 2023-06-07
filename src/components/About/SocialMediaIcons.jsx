@@ -9,9 +9,27 @@ import {
 function SocialMediaIcons() {
   return (
     <div>
-      <FontAwesomeIcon icon={faTwitter} className="me-2 pe-1" />
-      <FontAwesomeIcon icon={faInstagram} className="me-2 pe-1" />
-      <FontAwesomeIcon icon={faFacebook} />
+      <a
+        href="https://www.twitter.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon icon={faTwitter} className="me-2 pe-1" />
+      </a>
+      <a
+        href="https://www.instagram.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon icon={faInstagram} className="me-2 pe-1" />
+      </a>
+      <a
+        href="https://www.facebook.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon icon={faFacebook} />
+      </a>
     </div>
   );
 }
