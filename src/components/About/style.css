@@ -12,3 +12,7 @@
 #dv-about svg {
     font-size: 36px;
 }
+
+#dv-about a {
+    color: #245a70 !important;
+}
