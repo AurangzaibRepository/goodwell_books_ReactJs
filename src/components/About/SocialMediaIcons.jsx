@@ -1,35 +1,26 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
   faInstagram,
   faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
+import Icon from './Icon';
 
 function SocialMediaIcons() {
   return (
     <div>
-      <a
-        href="https://www.twitter.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FontAwesomeIcon icon={faTwitter} className="me-2 pe-1" />
-      </a>
-      <a
-        href="https://www.instagram.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FontAwesomeIcon icon={faInstagram} className="me-2 pe-1" />
-      </a>
-      <a
-        href="https://www.facebook.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FontAwesomeIcon icon={faFacebook} />
-      </a>
+      <Icon
+        url="https://www.twitter.com"
+        icon={faTwitter}
+      />
+      <Icon
+        url="https://www.instagram.com"
+        icon={faInstagram}
+      />
+      <Icon
+        url="https://www.facebook.com"
+        icon={faFacebook}
+      />
     </div>
   );
 }
