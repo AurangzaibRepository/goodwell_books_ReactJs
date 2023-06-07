@@ -17,7 +17,7 @@ function Icon({ url, icon }) {
 
 Icon.propTypes = {
   url: PropTypes.string.isRequired,
-  icon: PropTypes.node.isRequired,
+  icon: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
 export default Icon;
