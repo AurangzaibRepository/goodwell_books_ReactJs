@@ -41,5 +41,5 @@
 
 #dv-navbar ul a:hover {
     background: #00bef4;
-    color: #fff;
+    color: #fff !important;
 }
