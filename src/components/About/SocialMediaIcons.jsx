@@ -8,11 +8,11 @@ import {
 
 function SocialMediaIcons() {
   return (
-    <>
-      <FontAwesomeIcon icon={faTwitter} />
-      <FontAwesomeIcon icon={faInstagram} />
+    <div>
+      <FontAwesomeIcon icon={faTwitter} className="me-2 pe-1" />
+      <FontAwesomeIcon icon={faInstagram} className="me-2 pe-1" />
       <FontAwesomeIcon icon={faFacebook} />
-    </>
+    </div>
   );
 }
 
