@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Icon() {
+function Icon({ url, icon }) {
   return ();
 }
 
