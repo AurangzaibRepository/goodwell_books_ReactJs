@@ -10,10 +10,12 @@ function SocialMediaIcons() {
   return (
     <div>
       <Icon
+        classSpecifier="me-2 pe-1"
         url="https://www.twitter.com"
         icon={faTwitter}
       />
       <Icon
+        classSpecifier="me-2 pe-1"
         url="https://www.instagram.com"
         icon={faInstagram}
       />
