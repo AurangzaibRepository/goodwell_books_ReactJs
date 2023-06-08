@@ -5,7 +5,7 @@ import './style.css';
 function Footer() {
   return (
     <div id="dv-footer" className="text-center">
-      asdas
+      <img src={footerLogo} alt="logo" />
     </div>
   );
 }
