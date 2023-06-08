@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterService from '../../../services/FooterService';
 import footerLogo from '../../../assets/footer-logo.png';
 import './style.css';
 
