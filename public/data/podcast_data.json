@@ -1,0 +1,19 @@
+{
+    "description": "Co-founded by Malcolm Gladwell and Jacob Weisberg, Pushkin Industries is spreading the joy of podcasting, one episode at a time, by putting artists and creators first. Follow Pushkin on Twitter and Instagram and learn more at www.pushkin.fm.",
+    "list": [
+        {
+            "id": 1,
+            "title": "Revisionist History",
+            "caption": "Because sometimes the past deserves a second chance.",
+            "description": "Revisionist History is Malcolm Gladwell's journey through the overlooked and the misunderstood. Every episode re-examines something from the past—an event, a person, an idea, even a song—and asks whether we got it right the first time.",
+            "link": "http://revisionisthistory.com"
+        },
+        {
+            "id": 2,
+            "title": "Broken Record",
+            "caption": "Sing songs. Talk music.",
+            "description": "From Rick Rubin, Malcolm Gladwell, and Bruce Headlam. The musicians you love talk about their life, inspiration and craft. Oh, and they play, too.",
+            "link": "http://brokenrecordpodcast.com"
+        }
+    ]
+}
