@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import About from './components/About';
-import Podcasts from './components/podcasts';
+import Podcasts from './components/Podcasts';
 import Footer from './components/layouts/Footer';
 import './App.css';
 
