@@ -22,6 +22,7 @@ function App() {
           <Route path="/podcasts" />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
