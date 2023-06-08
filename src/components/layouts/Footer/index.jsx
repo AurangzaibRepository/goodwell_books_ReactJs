@@ -4,6 +4,8 @@ import footerLogo from '../../../assets/footer-logo.png';
 import './style.css';
 
 function Footer() {
+  const [data, setData] = useState();
+
   return (
     <div id="dv-footer" className="text-center">
       <img src={footerLogo} alt="logo" />
