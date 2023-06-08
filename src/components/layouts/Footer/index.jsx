@@ -6,6 +6,11 @@ import './style.css';
 function Footer() {
   const [data, setData] = useState();
 
+  const getData = async () => {
+    const footerData = await FooterService.getData();
+    setData(footerData);
+  };
+
   return (
     <div id="dv-footer" className="text-center">
       <img src={footerLogo} alt="logo" />
