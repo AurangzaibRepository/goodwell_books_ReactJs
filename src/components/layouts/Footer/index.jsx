@@ -11,6 +11,10 @@ function Footer() {
     setData(footerData);
   };
 
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div id="dv-footer" className="text-center">
       <img src={footerLogo} alt="logo" />
