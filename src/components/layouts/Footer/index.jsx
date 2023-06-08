@@ -24,9 +24,11 @@ function Footer() {
         {data
         && (
           data.map((item) => (
-            <a href={item.url} key={item.id}>
-              {item.title}
-            </a>
+            <ExternalLink
+              key={item.id}
+              url={item.url}
+              title={item.title}
+            />
           ))
         )}
       </p>
