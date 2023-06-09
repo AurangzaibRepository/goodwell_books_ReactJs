@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import PodcastService from '../../services/PodcastService';
+import Contents from './Contents';
 
 function Podcasts() {
   const [data, setData] = useState();
