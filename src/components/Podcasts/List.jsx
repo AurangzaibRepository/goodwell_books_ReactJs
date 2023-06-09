@@ -29,7 +29,10 @@ function List({ list }) {
           <div className="mt-4">
             <label className="sub-title">{item.title}</label>
             <br />
+            {item.caption !== ''
+            && (
             <label className="caption">{item.caption}</label>
+            )}
             <p>{item.description}</p>
           </div>
         </div>
