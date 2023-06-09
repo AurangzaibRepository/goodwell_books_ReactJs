@@ -8,7 +8,26 @@ import image5 from '../../assets/podcasts/podcast5.webp';
 import image6 from '../../assets/podcasts/podcast6.webp';
 
 function List({ list }) {
-  return ();
+  const imageList = [
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+  ];
+
+  return (
+    <>
+      {list.map((item, index) => (
+        <div className="dv-list-item" key={item.id}>
+          <div className="dv-image">
+            <img src={imageList[index]} alt="Podcast" />
+          </div>
+        </div>
+      ))}
+    </>
+  );
 }
 
 List.propTypes = {
