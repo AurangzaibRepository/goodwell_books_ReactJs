@@ -18,7 +18,14 @@ function Podcasts() {
 
   return (
     <div id="dv-podcasts">
-      <label className="title mb-5">Podcasts</label>
+      {data
+      && (
+        <Contents
+          title={data.title}
+          description={data.description}
+          list={data.list}
+        />
+      )}
     </div>
   );
 }
