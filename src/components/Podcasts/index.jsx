@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import PodcastService from '../../services/PodcastService';
 
 function Podcasts() {
+  const [data, setData] = useState();
+
   useEffect(() => {
     document.title = `${process.env.REACT_APP_APP_NAME} - Podcasts`;
   });
