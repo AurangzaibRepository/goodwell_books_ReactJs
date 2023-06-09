@@ -7,6 +7,7 @@ import {
 import Navbar from './components/layouts/Navbar';
 import About from './components/About';
 import Podcasts from './components/Podcasts';
+import Books from './components/Books';
 import Footer from './components/layouts/Footer';
 import './App.css';
 
