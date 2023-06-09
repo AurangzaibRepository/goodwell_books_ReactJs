@@ -1,0 +1,34 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The Bomber Mafia",
+            "description": "Dive into this “truly compelling” (Good Morning America) New York Times bestseller that explores how technology and best intentions collide in the heat of war—from the creator and host of the podcast Revisionist History. In The Bomber Mafia, Malcolm Gladwell weaves together the stories of a Dutch genius and his…",
+            "buyLink": "https://www.gladwellbooks.com/titles/malcolm-gladwell/the-bomber-mafia/9780316296618/"
+        },
+        {
+            "id": 2,
+            "title": "Talking to Strangers",
+            "description": "Malcolm Gladwell, host of the podcast Revisionist History and author of the #1 New York Times bestseller Outliers, offers a powerful examination of our interactions with strangers—and why they often go wrong. A Best Book of the Year: The Financial Times, Bloomberg, Chicago Tribune, and Detroit Free Press How did Fidel…",
+            "buyLink": "https://www.gladwellbooks.com/titles/malcolm-gladwell/talking-to-strangers/9780316478526/"
+        },
+        {
+            "id": 3,
+            "title": "David and Goliath",
+            "description": "Explore the power of the underdog in Malcolm Gladwell's dazzling examination of success, motivation, and the role of adversity in shaping our lives, from the bestselling author of The Bomber Mafia.Three thousand years ago on a battlefield in ancient Palestine, a shepherd boy felled a mighty warrior with nothing more than…",
+            "buyLink": "https://www.gladwellbooks.com/titles/malcolm-gladwell/david-and-goliath/9780316204361/"
+        },
+        {
+            "id": 4,
+            "title": "What the Dog Saw",
+            "description": "Delve into this 'delightful' (Bloomberg News) collection of Malcolm Gladwell's writings from The New Yorker, in which the bestselling author of The Bomber Mafia focuses on 'minor geniuses' and idiosyncratic behavior to illuminate the ways all of us organize experience. What is the difference between choking and panicking? Why are there dozens…",
+            "buyLink": "https://www.gladwellbooks.com/titles/malcolm-gladwell/what-the-dog-saw/9780316075848/"
+        },
+        {
+            "id": 5,
+            "title": "Outliers",
+            "description": "Malcolm Gladwell, bestselling author of Blink and The Bomber Mafia and host of the podcast Revisionist History, explores what sets high achievers apart—from Bill Gates to the Beatles—in this seminal work from 'a singular talent' (New York Times Book Review). In this stunning book, Malcolm Gladwell takes us on an intellectual journey through the world…",
+            "buyLink": "https://www.gladwellbooks.com/titles/malcolm-gladwell/outliers/9780316040341/"
+        }
+    ]
+}
