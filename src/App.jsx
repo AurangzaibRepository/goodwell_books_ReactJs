@@ -18,7 +18,7 @@ function App() {
       <div id="dv-main">
         <Routes>
           <Route path="/" />
-          <Route path="/books" />
+          <Route path="/books" element={<Books />} />
           <Route path="/about" element={<About />} />
           <Route path="/events" />
           <Route path="/podcasts" element={<Podcasts />} />
