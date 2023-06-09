@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Contents() {
+function Contents({
+  title,
+  description,
+  list,
+}) {
   return ();
 }
 
