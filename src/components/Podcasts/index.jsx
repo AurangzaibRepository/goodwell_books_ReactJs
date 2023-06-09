@@ -5,6 +5,11 @@ import PodcastService from '../../services/PodcastService';
 function Podcasts() {
   const [data, setData] = useState();
 
+  const getData = async () => {
+    const podcastData = await PodcastService.getData();
+    setData(podcastData);
+  };
+
   useEffect(() => {
     document.title = `${process.env.REACT_APP_APP_NAME} - Podcasts`;
   });
