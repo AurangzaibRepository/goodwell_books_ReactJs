@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PodcastService from '../../services/PodcastService';
 import Contents from './Contents';
+import './style.css';
 
 function Podcasts() {
   const [data, setData] = useState();
