@@ -9,4 +9,10 @@ function Contents({
   return ();
 }
 
+Contents.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  list: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default Contents;
