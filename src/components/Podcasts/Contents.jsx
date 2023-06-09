@@ -12,7 +12,7 @@ function Contents({
   return (
     <>
       <label className="title mb-5">{title}</label>
-      <p>{description}</p>
+      <p>{ReactHtmlParser(description)}</p>
     </>
   );
 }
