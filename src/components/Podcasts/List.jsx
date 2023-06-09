@@ -9,6 +9,8 @@ import image5 from '../../assets/podcasts/podcast5.webp';
 import image6 from '../../assets/podcasts/podcast6.webp';
 
 function List() {
+  const { items } = useContext(AppContext);
+
   const imageList = [
     image1,
     image2,
@@ -20,7 +22,7 @@ function List() {
 
   return (
     <>
-      {list.map((item, index) => (
+      {items.map((item, index) => (
         <div className="dv-list-item mt-5 pt-4" key={item.id}>
           <div className="dv-image text-center">
             <img src={imageList[index]} alt="Podcast" />
