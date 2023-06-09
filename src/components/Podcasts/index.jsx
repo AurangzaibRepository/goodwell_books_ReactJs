@@ -12,7 +12,8 @@ function Podcasts() {
 
   useEffect(() => {
     document.title = `${process.env.REACT_APP_APP_NAME} - Podcasts`;
-  });
+    getData();
+  }, []);
 
   return (
     <div id="dv-podcasts">
