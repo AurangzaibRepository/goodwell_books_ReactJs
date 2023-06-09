@@ -14,6 +14,34 @@
             "caption": "Sing songs. Talk music.",
             "description": "From Rick Rubin, Malcolm Gladwell, and Bruce Headlam. The musicians you love talk about their life, inspiration and craft. Oh, and they play, too.",
             "link": "http://brokenrecordpodcast.com"
+        },
+        {
+            "id": 3,
+            "title": "Against the Rules",
+            "caption": "Don’t pick sides. Unless it’s my side.",
+            "description": "Journalist and bestselling author Michael Lewis takes a searing look at what’s happened to fairness—in financial markets, newsrooms, basketball games, courts of law, and much more. And he asks what’s happening to a world where everyone loves to hate the referee.",
+            "link": "https://atrpodcast.com"
+        },
+        {
+            "id": 4,
+            "title": "Deep Background",
+            "caption": "",
+            "description": "Deep Background is an interview show hosted by Harvard professor Noah Feldman. Every week, Noah and his guests explore the historical, scientific, legal and cultural context behind the biggest stories in the news to help us understand what’s really going on.",
+            "link": "https://luminarypodcasts.com/listen/pushkin-industries/deep-background-with-noah-feldman-luminary-exclusive/73b41a4e-c27c-4f90-98bd-5c127f7f5efd"
+        },
+        {
+            "id": 5,
+            "title": "Solvable",
+            "caption": "",
+            "description": "A partnership between The Rockefeller Foundation and Pushkin Industries, Solvable showcases the world’s most inspiring thinkers proposing solutions to the world’s most daunting problems. The interviews, conducted by journalists like Malcolm Gladwell and Jacob Weisberg, acknowledge complexity while inciting hope that these problems are, in fact, solvable.",
+            "link": "https://www.rockefellerfoundation.org/solvable/solvable-podcast-series/"
+        },
+        {
+            "id": 6,
+            "title": "Making a Killing",
+            "caption": "",
+            "description": "Big Business is shaping the world in unprecedented ways. Through a series of conversations with today’s best business writers and thinkers, journalist Bethany McLean (co-author of The Smartest Guys in the Room) cuts through the hype and hand-wringing to reframe the stories you thought you understood and uncover the ones you didn’t know were important.",
+            "link": "https://luminarypodcasts.com/listen/bethany-mclean-and-pushkin-industries/making-a-killing-with-bethany-mclean/7bf11e6d-96b0-460b-9aef-14971ad63b8f?country=PK"
         }
     ]
 }
