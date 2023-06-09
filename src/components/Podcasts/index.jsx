@@ -1,5 +1,9 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useEffect, useState } from 'react';
+import React, {
+  useEffect,
+  useState,
+  useMemo,
+} from 'react';
 import PodcastService from '../../services/PodcastService';
 import Contents from './Contents';
 import PodcastContext from '../../contexts/PodcastContext';
@@ -7,6 +11,8 @@ import './style.css';
 
 function Podcasts() {
   const [data, setData] = useState();
+
+  const listItems = useMemo(() => ({ items: data ? data.list : [] }), [data]);
 
   const getData = async () => {
     const podcastData = await PodcastService.getData();
@@ -22,11 +28,12 @@ function Podcasts() {
     <div id="dv-podcasts">
       {data
       && (
-        <Contents
-          title={data.title}
-          description={data.description}
-          list={data.list}
-        />
+        <PodcastContext.Provider value={listItems}>
+          <Contents
+            title={data.title}
+            description={data.description}
+          />
+        </PodcastContext.Provider>
       )}
     </div>
   );
