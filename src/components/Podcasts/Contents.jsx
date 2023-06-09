@@ -14,6 +14,7 @@ function Contents({
     <>
       <label className="title mb-5">{title}</label>
       <p>{ReactHtmlParser(description)}</p>
+      <List list={list} />
     </>
   );
 }
