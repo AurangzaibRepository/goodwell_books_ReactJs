@@ -19,6 +19,9 @@ function Contents({
     <>
       <label className="title mb-5">{title}</label>
       <p>{ReactHtmlParser(description)}</p>
+      <div className="text-center mt-4">
+        <img src={image1} alt="" />
+      </div>
     </>
   );
 }
