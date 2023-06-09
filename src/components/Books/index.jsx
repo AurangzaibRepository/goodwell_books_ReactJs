@@ -9,9 +9,13 @@ function Books() {
     setData(bookData);
   };
 
+  useEffect(() => {
+    document.title = `${process.env.REACT_APP_APP_NAME} - Books`;
+    getData();
+  }, []);
+
   return (
     <div id="dv-books">
-
     </div>
   );
 }
