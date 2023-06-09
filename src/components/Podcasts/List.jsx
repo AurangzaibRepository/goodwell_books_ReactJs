@@ -34,6 +34,7 @@ function List({ list }) {
             <label className="caption">{item.caption}</label>
             )}
             <p>{item.description}</p>
+            <a href={item.link}>Learn More</a>
           </div>
         </div>
       ))}
