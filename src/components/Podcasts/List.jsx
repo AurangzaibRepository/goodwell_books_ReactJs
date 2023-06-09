@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 import image1 from '../../assets/podcasts/podcast1.webp';
@@ -20,9 +22,15 @@ function List({ list }) {
   return (
     <>
       {list.map((item, index) => (
-        <div className="dv-list-item" key={item.id}>
-          <div className="dv-image">
+        <div className="dv-list-item mt-5" key={item.id}>
+          <div className="dv-image text-center">
             <img src={imageList[index]} alt="Podcast" />
+          </div>
+          <div className="mt-4">
+            <label className="sub-title">{item.title}</label>
+            <br />
+            <label className="caption">{item.caption}</label>
+            <p>{item.description}</p>
           </div>
         </div>
       ))}
