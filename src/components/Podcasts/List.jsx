@@ -22,7 +22,7 @@ function List({ list }) {
   return (
     <>
       {list.map((item, index) => (
-        <div className="dv-list-item mt-5" key={item.id}>
+        <div className="dv-list-item mt-5 pt-4" key={item.id}>
           <div className="dv-image text-center">
             <img src={imageList[index]} alt="Podcast" />
           </div>
