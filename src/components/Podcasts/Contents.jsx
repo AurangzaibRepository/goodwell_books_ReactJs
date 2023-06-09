@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +8,12 @@ function Contents({
   description,
   list,
 }) {
-  return ();
+  return (
+    <>
+      <label className="title mb-5">{title}</label>
+      <p>{description}</p>
+    </>
+  );
 }
 
 Contents.propTypes = {
