@@ -21,9 +21,10 @@ function Contents({ title, books }) {
   return (
     <>
       <label className="title">{title}</label>
-      {books.map((item) => (
+      {books.map((item, index) => (
         <Book
           key={item.id}
+          image={imageList[index]}
           title={item.title}
           description={item.description}
           buyLink={item.buyLink}
