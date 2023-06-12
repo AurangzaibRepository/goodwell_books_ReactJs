@@ -12,13 +12,21 @@ function Book({
   description,
   buyLink,
 }) {
- return (
-  <div className="row mt-5">
-    <div className="col-md-4">
-      
-    </div>      
-  </div>
- );
+  const imageList = [
+    BookImage1,
+    BookImage2,
+    BookImage3,
+    BookImage4,
+    BookImage5,
+  ];
+
+  return (
+    <div className="row mt-5">
+      <div className="col-md-4">
+        
+      </div>
+    </div>
+  );
 }
 
 Book.propTypes = {
