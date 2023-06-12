@@ -1,13 +1,17 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function Contents({ title, books }) {
-  return ();
+  return (
+    <label className="title mb-5">{title}</label>
+  );
 }
 
 Contents.propTypes = {
   title: PropTypes.string.isRequired,
   books: PropTypes.instanceOf(Array).isRequired,
-}
+};
 
 export default Contents;
