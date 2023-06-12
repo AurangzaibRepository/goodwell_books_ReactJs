@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Contents from './Contents';
 import BooksService from '../../services/BooksService';
 
 function Books() {
