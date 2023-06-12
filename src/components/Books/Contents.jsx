@@ -10,6 +10,14 @@ import BookImage4 from '../../assets/books/book4.webp';
 import BookImage5 from '../../assets/books/book5.webp';
 
 function Contents({ title, books }) {
+  const imageList = [
+    BookImage1,
+    BookImage2,
+    BookImage3,
+    BookImage4,
+    BookImage5,
+  ];
+
   return (
     <>
       <label className="title">{title}</label>
