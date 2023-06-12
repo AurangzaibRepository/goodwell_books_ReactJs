@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -11,7 +12,11 @@ function Book({
   return (
     <div className="row mt-5">
       <div className="col-md-4">
-        <img src={}  
+        <img src={image} alt="book" />
+      </div>
+      <div className="col-md-8">
+        <label className="sub-title">{title}</label>
+        <p>{description}</p>
       </div>
     </div>
   );
