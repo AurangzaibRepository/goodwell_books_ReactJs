@@ -2,6 +2,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 function Book({
   image,
@@ -15,7 +16,10 @@ function Book({
         <img src={image} alt="book" />
       </div>
       <div className="col-md-8 ps-0">
-        <label className="sub-title">{title}</label>
+        <div className="dv-title d-flex mb-4">
+          <label className="sub-title">{title}</label>
+          <Link to="/Books/">Buy the Book</Link>
+        </div>
         <p>{description}</p>
       </div>
     </div>
