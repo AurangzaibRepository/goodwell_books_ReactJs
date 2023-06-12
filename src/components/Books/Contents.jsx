@@ -6,7 +6,17 @@ import Book from './Book';
 
 function Contents({ title, books }) {
   return (
-    <label className="title">{title}</label>
+    <>
+      <label className="title">{title}</label>
+      {books.map((item) => (
+        <Book
+          key={item.id}
+          title={item.title}
+          description={item.description}
+          buyLink={item.buyLink}
+        />
+      ))}
+    </>
   );
 }
 
