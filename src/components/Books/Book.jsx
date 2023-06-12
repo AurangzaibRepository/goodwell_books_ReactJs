@@ -18,7 +18,7 @@ function Book({
       <div className="col-md-8 ps-0">
         <div className="dv-title d-flex mb-4">
           <label className="sub-title">{title}</label>
-          <Link to="/Books/">Buy the Book</Link>
+          <Link to="/Books/" className="d-flex align-items-center justify-content-end">Buy the Book</Link>
         </div>
         <p>{description}</p>
       </div>
