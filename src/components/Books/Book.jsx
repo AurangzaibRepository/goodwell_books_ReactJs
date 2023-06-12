@@ -9,4 +9,10 @@ function Book({
  return ();
 }
 
+Book.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  buyLink: PropTypes.string.isRequired,
+};
+
 export default Book;
