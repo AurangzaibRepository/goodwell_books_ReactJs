@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function Contents({ title, books }) {
   return (
-    <label className="title mb-5">{title}</label>
+    <label className="title">{title}</label>
   );
 }
 
