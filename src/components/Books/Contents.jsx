@@ -3,6 +3,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Book from './Book';
+import BookImage1 from '../../assets/books/book1.webp';
+import BookImage2 from '../../assets/books/book2.webp';
+import BookImage3 from '../../assets/books/book3.webp';
+import BookImage4 from '../../assets/books/book4.webp';
+import BookImage5 from '../../assets/books/book5.webp';
 
 function Contents({ title, books }) {
   return (
