@@ -8,7 +8,6 @@ function Book({
   image,
   title,
   description,
-  buyLink,
 }) {
   return (
     <div className="row dv-book-info">
@@ -20,7 +19,10 @@ function Book({
           <label className="sub-title">{title}</label>
           <Link to="/Books/" className="d-flex align-items-center justify-content-end">Buy the Book</Link>
         </div>
-        <p>{description}</p>
+        <p>
+          {description}
+          <Link to="/Books/">{' Read More'}</Link>
+        </p>
       </div>
     </div>
   );
@@ -30,7 +32,6 @@ Book.propTypes = {
   image: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  buyLink: PropTypes.string.isRequired,
 };
 
 export default Book;

@@ -27,7 +27,6 @@ function Contents({ title, books }) {
           image={imageList[index]}
           title={item.title}
           description={item.description}
-          buyLink={item.buyLink}
         />
       ))}
     </>
