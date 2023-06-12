@@ -8,9 +8,10 @@ function Book({
   image,
   title,
   description,
+  additionalClass,
 }) {
   return (
-    <div className="row dv-book-info">
+    <div className={`row dv-book-info ${additionalClass}`}>
       <div className="col-md-4 text-center pe-0">
         <img src={image} alt="book" />
       </div>
@@ -37,6 +38,7 @@ Book.propTypes = {
   image: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  additionalClass: PropTypes.string.isRequired,
 };
 
 export default Book;
