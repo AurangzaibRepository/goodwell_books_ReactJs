@@ -10,7 +10,7 @@ function Book({
   buyLink,
 }) {
   return (
-    <div className="row mt-5">
+    <div className="row mt-5 pt-3">
       <div className="col-md-4">
         <img src={image} alt="book" />
       </div>
