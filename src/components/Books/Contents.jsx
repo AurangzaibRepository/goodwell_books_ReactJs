@@ -27,6 +27,7 @@ function Contents({ title, books }) {
           image={imageList[index]}
           title={item.title}
           description={item.description}
+          additionalClass={index === (books.length - 1) ? 'mb-0' : ''}
         />
       ))}
     </>
