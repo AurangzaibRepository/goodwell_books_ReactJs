@@ -17,6 +17,13 @@ function Books() {
 
   return (
     <div id="dv-books">
+      {data
+      && (
+        <Contents
+          title={data.title}
+          books={data.books}
+        />
+      )}
     </div>
   );
 }
