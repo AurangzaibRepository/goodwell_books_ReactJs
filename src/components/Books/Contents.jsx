@@ -20,7 +20,7 @@ function Contents({ title, books }) {
 
   return (
     <>
-      <label className="title">{title}</label>
+      <label className="title mb-5">{title}</label>
       {books.map((item, index) => (
         <Book
           key={item.id}
