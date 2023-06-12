@@ -26,7 +26,7 @@ function Book({
         </div>
         <p>
           {description}
-          <Link to="/Books/">{' Read More'}</Link>
+          <Link to="/Books/" className="lnk-read-more">{' Read More'}</Link>
         </p>
       </div>
     </div>
