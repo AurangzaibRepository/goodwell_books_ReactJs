@@ -5,16 +5,18 @@ function BookDetails() {
   const [data, setData] = useState();
 
   const getData = async () => {
-    const bookDetails = await BookDetailsService.getData();
+    const bookDetails = await BookInfoService.getData();
     setData(bookDetails);
-  }
+  };
 
   useEffect(() => {
-    document.title = ``;
+    document.title = '';
     getData();
   });
 
-  return ();
+  return (
+    <span>asdas</span>
+  );
 }
 
 export default BookDetails;
