@@ -35,5 +35,22 @@
     "barcode_number": "9780316478526",
     "request_copy_link": "https://examcopyrequestform.poweredbyzola.com/?isbn=9780316478526",
     "description": "<b>Malcolm Gladwell, host of the podcast Revisionist History and author of the #1 New York Times bestseller Outliers, offers a powerful examination of our interactions with strangers—and why they often go wrong. A Best Book of the Year: The Financial Times, Bloomberg, Chicago Tribune, and Detroit Free Press</b><br/>How did Fidel Castro fool the CIA for a generation? Why did Neville Chamberlain think he could trust Adolf Hitler? Why are campus sexual assaults on the rise? Do television sitcoms teach us something about the way we relate to one another that isn’t true?<br/>Talking to Strangers is a classically Gladwellian intellectual adventure, a challenging and controversial excursion through history, psychology, and scandals taken straight from the news. He revisits the deceptions of Bernie Madoff, the trial of Amanda Knox, the suicide of Sylvia Plath, the Jerry Sandusky pedophilia scandal at Penn State University, and the death of Sandra Bland—throwing our understanding of these and other stories into doubt.",
-    "excerpt_link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/677340396&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    "excerpt_link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/677340396&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    "praises": [
+        {
+            "id": 1,
+            "message": "<i>Talking to Strangers</i> is a must-read...I love this book... Reading it will actually change not just how you see strangers, but how you look at yourself, the news--the world...Reading this book changed me",
+            "author": "<b><i>Oprah Winfrey, O, The Oprah Magazine</i></b>"
+        },
+        {
+            "id": 2,
+            "message": "Powerful advice on truly getting to know others...Gladwell brilliantly argues that we should stop assuming, realize no one's transparent and understand that behavior is tied to unseen circumstances",
+            "author": "<b><i>People, Book of the Week</i></b>"
+        },
+        {
+            "id": 3,
+            "message": "Mr. Gladwell's towering success rests on the moment when the skeptic starts to think that maybe we're wrong about everything and maybe, just maybe, this Gladwell guy is onto something...Talking to Strangers is weightier than his previous titles.",
+            "author": "<b><i>Amy Chozick, New York Times</i></b>"
+        }
+    ]
 }
