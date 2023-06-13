@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BookInfoService from '../../services/BookInfoService';
+import Image from '../../assets/books/book2.webp';
 
 function BookDetails() {
   const [data, setData] = useState();
