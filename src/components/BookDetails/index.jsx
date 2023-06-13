@@ -21,7 +21,7 @@ function BookDetails() {
     <div id="dv-book-details">
       <div className="row">
         <div className="col-md-4">
-          <img src={Image} alt="Book" />
+          <img src={Image} alt="Book" id="image-book" />
         </div>
         <div className="col-md-8 ps-4">
           sdf
