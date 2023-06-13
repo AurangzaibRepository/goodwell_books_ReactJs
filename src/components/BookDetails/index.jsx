@@ -12,7 +12,7 @@ function BookDetails() {
   };
 
   useEffect(() => {
-    document.title = '';
+    document.title = `${process.env.REACT_APP_APP_NAME} - ${title}`;
     getData();
   });
 
