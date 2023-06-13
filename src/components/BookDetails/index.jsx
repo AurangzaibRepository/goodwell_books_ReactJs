@@ -18,7 +18,16 @@ function BookDetails() {
   });
 
   return (
-    <span>{title}</span>
+    <div id="dv-book-details">
+      <div className="row">
+        <div className="col-md-4">
+          <img src={Image} alt="Book" />
+        </div>
+        <div className="col-md-8 ps-4">
+          sdf
+        </div>
+      </div>
+    </div>
   );
 }
 
