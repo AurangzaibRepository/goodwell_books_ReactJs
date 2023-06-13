@@ -4,6 +4,7 @@ import BookInfoService from '../../services/BookInfoService';
 
 function BookDetails() {
   const [data, setData] = useState();
+  const { title } = useParams();
 
   const getData = async () => {
     const bookDetails = await BookInfoService.getData();
@@ -16,7 +17,7 @@ function BookDetails() {
   });
 
   return (
-    <span>asdas</span>
+    <span>{title}</span>
   );
 }
 
