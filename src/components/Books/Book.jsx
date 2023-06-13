@@ -19,7 +19,7 @@ function Book({
         <div className="dv-title d-flex mb-4">
           <label className="sub-title">{title}</label>
           <Link
-            to="/books/"
+            to={`/books/${title}`}
             className="d-flex align-items-center justify-content-end lnk-buy"
           >
             Buy the Book
@@ -27,7 +27,7 @@ function Book({
         </div>
         <p>
           {description}
-          <Link to="/books/" className="lnk-read-more">{' Read More'}</Link>
+          <Link to={`/books/${title}`} className="lnk-read-more">{' Read More'}</Link>
         </p>
       </div>
     </div>
