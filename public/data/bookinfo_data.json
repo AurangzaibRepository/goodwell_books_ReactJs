@@ -1,0 +1,32 @@
+{
+    "title": "Talking to Strangers",
+    "caption": "What We Should Know about the People We Don't Know",
+    "price": "$30.00",
+    "buyLinks": [
+        {
+            "id": 1,
+            "title": "Amazon",
+            "link": "www.amazon.com/gp/product/0316478520?tag=hacboogrosit-20"
+        },
+        {
+            "id": 2,
+            "title": "Barnes & Noble",
+            "link": "www.anrdoezrs.net/links/8040641/type/dlg/http://www.barnesandnoble.com/s/9780316478526"
+        },
+        {
+            "id": 3,
+            "title": "Books-A-Million",
+            "link": "https://www.booksamillion.com/p/9780316478526?AID=11552245&PID=8040641&cjevent=94372d0d09e811ee83ff00400a18b8f7&cjdata=MXxOfDB8WXww"
+        },
+        {
+            "id": 4,
+            "title": "Bookshop",
+            "link": "https://bookshop.org/p/books/talking-to-strangers-what-we-should-know-about-the-people-we-don-t-know-malcolm-gladwell/16344994?ean=9780316478526"
+        },
+        {
+            "id": 5,
+            "title": "Target",
+            "link": "https://www.target.com/s?searchTerm=9780316478526"
+        }
+    ]
+}
