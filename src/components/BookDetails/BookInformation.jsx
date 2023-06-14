@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import BookCover from '../../assets/books/book2.webp';
 
 function BookInformation({
   title,
@@ -7,7 +9,13 @@ function BookInformation({
   price,
   buyLinks,
 }) {
-  return ();
+  return (
+    <div className="row">
+      <div className="col-md-4">
+        <img src={BookCover} alt="Book Cover" />
+      </div>
+    </div>
+  );
 }
 
 BookInformation.propTypes = {
