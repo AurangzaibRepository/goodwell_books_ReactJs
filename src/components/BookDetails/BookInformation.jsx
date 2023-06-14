@@ -12,7 +12,11 @@ function BookInformation({
   return (
     <div className="row">
       <div className="col-md-4">
-        <img src={BookCover} alt="Book Cover" />
+        <img
+          src={BookCover}
+          alt="Book Cover"
+          id="image-book-cover"
+        />
       </div>
       <div className="col-md-8 ps-4">
         {title}
