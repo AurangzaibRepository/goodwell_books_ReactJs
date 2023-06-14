@@ -8,14 +8,14 @@ function BookDetails() {
   const { title } = useParams();
 
   const getData = async () => {
-    const bookDetails = await BookInfoService.getData();
-    setData(bookDetails);
+    const bookData = await BookInfoService.getData();
+    setData(bookData);
   };
 
   useEffect(() => {
     document.title = `${process.env.REACT_APP_APP_NAME} - ${title}`;
     getData();
-  });
+  }, []);
 
   return (
     <div id="dv-book-details">
