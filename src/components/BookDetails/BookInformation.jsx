@@ -6,12 +6,6 @@ function BookInformation({
   caption,
   price,
   buyLinks,
-  saleDate,
-  pageCount,
-  isbn,
-  barcodeNumber,
-  requestCopyLink,
-  description,
 }) {
   return ();
 }
