@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -19,7 +20,8 @@ function BookInformation({
         />
       </div>
       <div className="col-md-8 ps-4">
-        {title}
+        <h1 id="book-title">{title}</h1>
+        <label id="book-caption">{caption}</label>
       </div>
     </div>
   );
