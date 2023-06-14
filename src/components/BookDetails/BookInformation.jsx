@@ -10,4 +10,11 @@ function BookInformation({
   return ();
 }
 
+BookInformation.propTypes = {
+  title: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  buyLinks: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default BookInformation;
