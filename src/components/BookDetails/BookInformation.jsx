@@ -14,6 +14,9 @@ function BookInformation({
       <div className="col-md-4">
         <img src={BookCover} alt="Book Cover" />
       </div>
+      <div className="col-md-8 ps-4">
+        {title}
+      </div>
     </div>
   );
 }
