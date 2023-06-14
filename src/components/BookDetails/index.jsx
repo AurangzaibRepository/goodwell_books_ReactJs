@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import BookInformation from './BookInformation';
 import BookInfoService from '../../services/BookInfoService';
-import Image from '../../assets/books/book2.webp';
 
 function BookDetails() {
   const [data, setData] = useState();
@@ -19,14 +19,7 @@ function BookDetails() {
 
   return (
     <div id="dv-book-details">
-      <div className="row">
-        <div className="col-md-4">
-          <img src={Image} alt="Book" id="image-book" />
-        </div>
-        <div className="col-md-8 ps-4">
-          sdf
-        </div>
-      </div>
+      
     </div>
   );
 }
