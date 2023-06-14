@@ -19,7 +19,15 @@ function BookDetails() {
 
   return (
     <div id="dv-book-details">
-      
+      {data
+      && (
+        <BookInformation
+          title={data.title}
+          caption={data.caption}
+          price={data.price}
+          buyLinks={data.buy_links}
+        />
+      )}
     </div>
   );
 }
