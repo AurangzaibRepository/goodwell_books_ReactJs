@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BookInformation from './BookInformation';
 import BookInfoService from '../../services/BookInfoService';
+import './style.css';
 
 function BookDetails() {
   const [data, setData] = useState();
