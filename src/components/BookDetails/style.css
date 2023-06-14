@@ -1,3 +1,15 @@
 #dv-book-details #image-book-cover {
     width: 100%;
 }
+
+#dv-book-details #book-title {
+    color: #2d2d2d;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+#dv-book-details #book-caption {
+    font-size: 1.8rem;
+    line-height: 35px;
+}
