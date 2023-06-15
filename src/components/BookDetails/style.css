@@ -13,3 +13,8 @@
     font-size: 1.8rem;
     line-height: 35px;
 }
+
+#dv-book-details #dv-cover-links {
+    border-bottom: 1px solid #e6e5e5;
+    border-top: 1px solid #e6e5e5;
+}
