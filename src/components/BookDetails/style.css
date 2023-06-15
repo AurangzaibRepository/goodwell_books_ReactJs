@@ -14,7 +14,8 @@
     line-height: 35px;
 }
 
-#dv-book-details #dv-cover-links {
+#dv-book-details #dv-cover-links,
+#dv-book-details #dv-buy-links {
     border-bottom: 1px solid #e6e5e5;
     border-top: 1px solid #e6e5e5;
     padding: 20px 0px;
