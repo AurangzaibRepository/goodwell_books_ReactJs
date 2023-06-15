@@ -26,6 +26,7 @@ function BookInformation({
         <label id="book-caption">{caption}</label>
         <CoverLinks />
         <label id="label-price">{price}</label>
+        <BuyLinks buyLinks={buyLinks} />
       </div>
     </div>
   );
