@@ -23,6 +23,7 @@ function BookInformation({
       <div className="col-md-8 ps-4">
         <h1 id="book-title">{title}</h1>
         <label id="book-caption">{caption}</label>
+        <CoverLinks />
       </div>
     </div>
   );
