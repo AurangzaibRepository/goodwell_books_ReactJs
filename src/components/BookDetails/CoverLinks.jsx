@@ -3,7 +3,7 @@ import ExternalLink from '../layouts/ExternalLink';
 
 function CoverLinks() {
   return (
-    <div id="dv-cover-links" className="mt-4">
+    <div id="dv-cover-links" className="mt-4 mb-4">
       <ExternalLink
         title="HARDCOVER"
         url="#"
