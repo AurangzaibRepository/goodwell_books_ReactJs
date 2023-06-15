@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CoverLinks from './CoverLinks';
+import BuyLinks from './BuyLinks';
 import BookCover from '../../assets/books/book2.webp';
 
 function BookInformation({
@@ -24,6 +25,7 @@ function BookInformation({
         <h1 id="book-title">{title}</h1>
         <label id="book-caption">{caption}</label>
         <CoverLinks />
+        <label id="label-price">{price}</label>
       </div>
     </div>
   );
