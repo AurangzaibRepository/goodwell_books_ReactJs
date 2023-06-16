@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
+import Label from '../layouts/Label';
 import List from './List';
 
 function Contents({
