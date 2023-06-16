@@ -8,7 +8,7 @@ import ExternalLink from '../layouts/ExternalLink';
 function BuyLinks({ buyLinks }) {
   return (
     <div id="dv-buy-links" className="mt-4">
-      <label>Buy Now:</label>
+      <Label value="Buy Now:" />
       {buyLinks.map((item) => (
         <ExternalLink
           key={item.id}
