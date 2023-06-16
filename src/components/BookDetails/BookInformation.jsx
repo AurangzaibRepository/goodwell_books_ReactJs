@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CoverLinks from './CoverLinks';
 import BuyLinks from './BuyLinks';
+import Image from '../layouts/Image';
 import BookCover from '../../assets/books/book2.webp';
 
 function BookInformation({
