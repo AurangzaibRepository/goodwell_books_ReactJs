@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Label() {
+function Label({
+  value,
+  id,
+  classIdentifier,
+}) {
   return ();
 }
 
