@@ -1,12 +1,20 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function PublishInformation({ publishData, requestLink }) {
-  return ();
+  return (
+    <div className="row">
+      <div className="col-md-4">
+      </div>
+      <div className="col-md-8 ps-4">
+      </div>
+    </div>
+  );
 }
 
 PublishInformation.propTypes = {
-  publishData: PropTypes.object.isRequired,
+  publishData: PropTypes.objectOf(PropTypes.shape).isRequired,
   requestLink: PropTypes.string.isRequired,
 };
 
