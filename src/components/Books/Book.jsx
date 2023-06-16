@@ -2,6 +2,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Image from '../layouts/Image';
 import { Link } from 'react-router-dom';
 
 function Book({
