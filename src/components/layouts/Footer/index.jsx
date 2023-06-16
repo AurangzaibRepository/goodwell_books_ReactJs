@@ -19,7 +19,10 @@ function Footer() {
 
   return (
     <div id="dv-footer" className="text-center">
-      <img src={footerLogo} alt="logo" />
+      <Image
+        src={footerLogo}
+        alt="logo"
+      />
       <p>
         {'© 2023 Hachette Book Group | '}
         {data
