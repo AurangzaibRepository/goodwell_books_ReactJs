@@ -26,7 +26,10 @@ function List() {
       {items.map((item, index) => (
         <div className="dv-list-item mt-5 pt-4" key={item.id}>
           <div className="dv-image text-center">
-            <img src={imageList[index]} alt="Podcast" />
+            <Image
+              src={imageList[index]}
+              alt="Podcast"
+            />
           </div>
           <div className="mt-4">
             <label className="sub-title">{item.title}</label>
