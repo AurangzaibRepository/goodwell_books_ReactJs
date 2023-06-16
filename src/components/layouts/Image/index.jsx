@@ -1,7 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Image() {
+function Image({
+  src,
+  alt,
+  classSpecifier,
+  id,
+}) {
   return ();
 }
 
