@@ -22,7 +22,10 @@ function Book({
       </div>
       <div className="col-md-8 ps-0">
         <div className="dv-title d-flex mb-4">
-          <label className="sub-title">{title}</label>
+          <Label
+            value={title}
+            classIdentifier="sub-title"
+          />
           <Link
             to={`/book/${title}`}
             className="d-flex align-items-center justify-content-end lnk-buy"
