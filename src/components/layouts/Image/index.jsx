@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -7,7 +8,14 @@ function Image({
   classIdentifier,
   id,
 }) {
-  return ();
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={classIdentifier}
+      id={id}
+    />
+  );
 }
 
 Image.propTypes = {
