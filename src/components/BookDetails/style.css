@@ -37,3 +37,9 @@
     font-size: 32px;
     font-weight: 600;
 }
+
+#dv-book-details #dv-buy-links label {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 13px;
+}
