@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import AppContext from '../../contexts/PodcastContext';
 import Image from '../layouts/Image';
+import ExternalLink from '../layouts/ExternalLink';
 import image1 from '../../assets/podcasts/podcast1.webp';
 import image2 from '../../assets/podcasts/podcast2.webp';
 import image3 from '../../assets/podcasts/podcast3.webp';
@@ -39,7 +40,10 @@ function List() {
             <label className="caption">{item.caption}</label>
             )}
             <p>{item.description}</p>
-            <a href={item.link}>Learn More</a>
+            <ExternalLink
+              url={item.link}
+              title="Learn More"
+            />
           </div>
         </div>
       ))}
