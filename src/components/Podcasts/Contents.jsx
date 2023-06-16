@@ -12,7 +12,10 @@ function Contents({
 }) {
   return (
     <>
-      <label className="title mb-5">{title}</label>
+      <Label
+        value={title}
+        classIdentifier="title mb-5"
+      />
       <p>{ReactHtmlParser(description)}</p>
       <List />
     </>
