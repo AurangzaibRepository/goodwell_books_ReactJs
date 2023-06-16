@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Image from '../layouts/Image';
 import SocialMediaIcons from './SocialMediaIcons';
 import picture from '../../assets/about/sloman.webp';
 
