@@ -34,11 +34,17 @@ function List() {
             />
           </div>
           <div className="mt-4">
-            <label className="sub-title">{item.title}</label>
+            <Label
+              value={item.title}
+              classIdentifier="sub-title"
+            />
             <br />
             {item.caption !== ''
             && (
-            <label className="caption">{item.caption}</label>
+            <Label
+              value={item.caption}
+              classIdenifier="caption"
+            />
             )}
             <p>{item.description}</p>
             <ExternalLink
