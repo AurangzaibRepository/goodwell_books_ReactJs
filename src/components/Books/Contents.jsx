@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Book from './Book';
+import Label from '../layouts/Label';
 import BookImage1 from '../../assets/books/book1.webp';
 import BookImage2 from '../../assets/books/book2.webp';
 import BookImage3 from '../../assets/books/book3.webp';
@@ -20,7 +21,10 @@ function Contents({ title, books }) {
 
   return (
     <>
-      <label className="title mb-5">{title}</label>
+      <Label
+        value={title}
+        classIdentifier="title mb-5"
+      />
       {books.map((item, index) => (
         <Book
           key={item.id}
