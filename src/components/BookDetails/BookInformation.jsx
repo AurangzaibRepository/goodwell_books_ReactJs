@@ -16,7 +16,7 @@ function BookInformation({
   return (
     <div className="row">
       <div className="col-md-4">
-        <img
+        <Image
           src={BookCover}
           alt="Book Cover"
           id="image-book-cover"
