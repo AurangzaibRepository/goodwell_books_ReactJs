@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Label from '../layouts/Label';
 import ExternalLink from '../layouts/ExternalLink';
 
 function BuyLinks({ buyLinks }) {
