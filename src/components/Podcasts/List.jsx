@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import AppContext from '../../contexts/PodcastContext';
 import Image from '../layouts/Image';
+import Label from '../layouts/Label';
 import ExternalLink from '../layouts/ExternalLink';
 import image1 from '../../assets/podcasts/podcast1.webp';
 import image2 from '../../assets/podcasts/podcast2.webp';
