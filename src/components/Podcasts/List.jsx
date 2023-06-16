@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useContext } from 'react';
 import AppContext from '../../contexts/PodcastContext';
+import Image from '../layouts/Image';
 import image1 from '../../assets/podcasts/podcast1.webp';
 import image2 from '../../assets/podcasts/podcast2.webp';
 import image3 from '../../assets/podcasts/podcast3.webp';
