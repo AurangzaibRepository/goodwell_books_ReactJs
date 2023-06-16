@@ -2,8 +2,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Image from '../layouts/Image';
 import { Link } from 'react-router-dom';
+import Image from '../layouts/Image';
 
 function Book({
   image,
@@ -14,7 +14,10 @@ function Book({
   return (
     <div className={`row dv-book-info ${additionalClass}`}>
       <div className="col-md-4 text-center pe-0">
-        <img src={image} alt="book" />
+        <Image
+          src={image}
+          alt="book"
+        />
       </div>
       <div className="col-md-8 ps-0">
         <div className="dv-title d-flex mb-4">
