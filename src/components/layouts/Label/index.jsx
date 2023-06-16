@@ -9,4 +9,10 @@ function Label({
   return ();
 }
 
+Label.propTypes = {
+  value: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
+};
+
 export default Label;
