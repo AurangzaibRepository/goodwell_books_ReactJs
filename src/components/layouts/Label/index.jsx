@@ -24,4 +24,9 @@ Label.propTypes = {
   classIdentifier: PropTypes.string,
 };
 
+Label.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Label;
