@@ -14,7 +14,10 @@ function Content({ title, description }) {
       <div id="dv-contents">
         <div className="row">
           <div className="col-md-6 text-center pe-0">
-            <img src={picture} alt="author" />
+            <Image
+              src={picture}
+              alt="author"
+            />
           </div>
           <div className="col-md-6 ps-0">
             <p className="mb-1 pb-1">{description}</p>
