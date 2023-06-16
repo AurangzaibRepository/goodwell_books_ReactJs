@@ -24,7 +24,10 @@ function Content({ title, description }) {
             <p className="mb-1 pb-1">{description}</p>
             <SocialMediaIcons />
             <br />
-            <label className="sub-title mt-4 mb-2">Events</label>
+            <Label
+              value="Events"
+              classIdentifier="sub-title mt-4 mb-2"
+            />
             <p>
               {'Malcolm Gladwell is going on tour. '}
               <Link to="/events">Click here</Link>
