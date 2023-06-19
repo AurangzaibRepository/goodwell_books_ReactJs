@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ExternalLink from '../layouts/ExternalLink';
+import PublishIcon from './PublishIcon';
 
 function PublishInformation({ publishData, requestLink }) {
   return (
@@ -18,6 +19,9 @@ function PublishInformation({ publishData, requestLink }) {
         />
       </div>
       <div className="col-md-8 ps-4">
+        {publishData.map((item) => (
+
+        ))}
       </div>
     </div>
   );
