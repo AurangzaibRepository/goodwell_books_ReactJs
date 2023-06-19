@@ -1,8 +1,14 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Label from '../layouts/Label';
 
 function BuyBookLinks({ buyLinks }) {
-  return ();
+  return (
+    <div id="dv-buy-book-links">
+      
+    </div>
+  );
 }
 
 BuyBookLinks.propTypes = {
