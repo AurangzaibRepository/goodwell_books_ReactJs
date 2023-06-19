@@ -5,7 +5,7 @@ import ExternalLink from '../layouts/ExternalLink';
 
 function PublishInformation({ publishData, requestLink }) {
   return (
-    <div className="row">
+    <div className="row mt-4" id="dv-publish-information">
       <div className="col-md-4">
         <ExternalLink
           url={requestLink}
