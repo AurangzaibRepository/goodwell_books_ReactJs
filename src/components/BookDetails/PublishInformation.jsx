@@ -7,7 +7,14 @@ function PublishInformation({ publishData, requestLink }) {
   return (
     <div className="row">
       <div className="col-md-4">
-
+        <ExternalLink
+          url={requestLink}
+          title="READ EXCERPT"
+        />
+        <ExternalLink
+          url={requestLink}
+          title="REQUEST DESK/EXAM COPY"
+        />
       </div>
       <div className="col-md-8 ps-4">
       </div>
