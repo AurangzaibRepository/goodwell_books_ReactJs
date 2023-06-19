@@ -60,3 +60,9 @@
     font-weight: bold;
     padding: 16px;
 }
+
+#dv-book-details #dv-publish-information span {
+    color: #000;
+    display: inline-block;
+    font-size: 21px;
+}
