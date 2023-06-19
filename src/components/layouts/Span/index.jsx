@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Span() {
+function Span({
+  value,
+  id,
+  classIdentifier,
+}) {
   return ();
 };
 
