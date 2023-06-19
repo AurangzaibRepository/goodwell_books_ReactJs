@@ -20,7 +20,11 @@ function PublishInformation({ publishData, requestLink }) {
       </div>
       <div className="col-md-8 ps-4">
         {publishData.map((item) => (
-
+          <PublishIcon
+            key={item.id}
+            title={item.title}
+            value={item.value}
+          />
         ))}
       </div>
     </div>
