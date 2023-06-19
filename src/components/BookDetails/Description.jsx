@@ -12,7 +12,7 @@ function Description({ description }) {
         value="Description"
       />
       <p>
-        {description}
+        {ReactHtmlParser(description)}
       </p>
     </>
   );
