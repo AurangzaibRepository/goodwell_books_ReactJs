@@ -17,6 +17,7 @@ function ExternalLink({
 ExternalLink.propTypes = {
   url: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  class: PropTypes.string,
 };
 
 export default ExternalLink;
