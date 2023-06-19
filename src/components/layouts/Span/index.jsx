@@ -9,4 +9,8 @@ function Span({
   return ();
 };
 
+Span.propTypes = {
+  value: PropTypes.string.isRequired,
+};
+
 export default Span;
