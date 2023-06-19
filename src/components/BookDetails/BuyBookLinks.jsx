@@ -9,6 +9,7 @@ function BuyBookLinks({ buyLinks }) {
       <Label
         value="Buy the Book"
         id="label-buy-book"
+        classIdentifier="sub-title"
       />
     </div>
   );
