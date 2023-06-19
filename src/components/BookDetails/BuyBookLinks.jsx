@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../layouts/Label';
+import ExternalLink from '../layouts/ExternalLink';
 
 function BuyBookLinks({ buyLinks }) {
   return (
@@ -11,6 +12,16 @@ function BuyBookLinks({ buyLinks }) {
         id="label-buy-book"
         classIdentifier="sub-title"
       />
+      <div className="row d-flex justify-content-center">
+        {buyLinks.map((item) => (
+          <div className="col-md-4 text-center" key={item.id}>
+            <ExternalLink
+              url={item.link}
+              title={item.title}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
