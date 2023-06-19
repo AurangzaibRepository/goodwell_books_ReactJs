@@ -31,7 +31,7 @@ function BookDetails() {
             buyLinks={data.buy_links}
           />
           <PublishInformation
-            publishData={data.push_information}
+            publishData={data.publish_information}
             requestLink={data.request_copy_link}
           />
         </>
