@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,12 @@ function PublishIcon({
   icon,
   value,
 }) {
-  return ();
+  return (
+    <div className="dv-publish-icon">
+      <span>{title}</span>
+      <span>{value}</span>
+    </div>
+  );
 }
 
 PublishIcon.propTypes = {
