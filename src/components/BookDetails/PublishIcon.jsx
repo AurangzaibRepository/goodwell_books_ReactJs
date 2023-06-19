@@ -11,11 +11,14 @@ function PublishIcon({
 }) {
   return (
     <div className="dv-publish-icon text-center">
-      <span className="mb-2">{title}</span>
+      <Span
+        value={title}
+        classIdentifier="mb-2"
+      />
       <br />
       <FontAwesomeIcon icon={icon} />
       <br />
-      <span>{value}</span>
+      <Span value={value} />
     </div>
   );
 }
