@@ -35,6 +35,7 @@ function BookDetails() {
             publishData={data.publish_information}
             requestLink={data.request_copy_link}
           />
+          <Description description={data.description} />
         </>
       )}
     </div>
