@@ -2,11 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function ExternalLink({
-  url,
-  title,
-  class,
-}) {
+function ExternalLink({ url, title }) {
   return (
     <a href={url}>
       {title}
