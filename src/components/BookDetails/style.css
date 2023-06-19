@@ -50,3 +50,13 @@
     margin-right: 15px;
     text-decoration: underline !important;
 }
+
+#dv-book-details #dv-publish-information a {
+    background: #00bef4;
+    border-radius: 4px;
+    color: #fff !important;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px;
+}
