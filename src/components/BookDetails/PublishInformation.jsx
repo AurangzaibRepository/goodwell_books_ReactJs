@@ -10,6 +10,12 @@ import ExternalLink from '../layouts/ExternalLink';
 import PublishIcon from './PublishIcon';
 
 function PublishInformation({ publishData, requestLink }) {
+  const iconList = [
+    faCalendar,
+    faPager,
+    faBarcode,
+  ];
+
   return (
     <div className="row mt-4" id="dv-publish-information">
       <div className="col-md-4">
