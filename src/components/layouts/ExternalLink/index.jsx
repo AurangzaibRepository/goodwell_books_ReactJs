@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function ExternalLink({
   url,
   title,
-  class,
+  classIdentifier,
 }) {
   return (
     <a href={url}>
@@ -17,7 +17,11 @@ function ExternalLink({
 ExternalLink.propTypes = {
   url: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  class: PropTypes.string,
+  classIdentifier: PropTypes.string,
+};
+
+ExternalLink.defaultProps = {
+  classIdentifier: '',
 };
 
 export default ExternalLink;
