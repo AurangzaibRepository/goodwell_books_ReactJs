@@ -10,6 +10,7 @@ function PublishInformation({ publishData, requestLink }) {
         <ExternalLink
           url={requestLink}
           title="READ EXCERPT"
+          classIdentifier="mb-2"
         />
         <ExternalLink
           url={requestLink}
