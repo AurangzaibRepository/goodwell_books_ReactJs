@@ -23,12 +23,18 @@ function BookDetails() {
     <div id="dv-book-details">
       {data
       && (
-        <BookInformation
-          title={data.title}
-          caption={data.caption}
-          price={data.price}
-          buyLinks={data.buy_links}
-        />
+        <>
+          <BookInformation
+            title={data.title}
+            caption={data.caption}
+            price={data.price}
+            buyLinks={data.buy_links}
+          />
+          <PublishInformation
+            publishData={data.push_information}
+            requestLink={data.request_copy_link}
+          />
+        </>
       )}
     </div>
   );
