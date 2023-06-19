@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {
   faCalendar,
   faPager,
-  faBarcode
+  faBarcode,
 } from '@fortawesome/free-solid-svg-icons';
 import ExternalLink from '../layouts/ExternalLink';
 import PublishIcon from './PublishIcon';
@@ -30,11 +30,12 @@ function PublishInformation({ publishData, requestLink }) {
         />
       </div>
       <div className="col-md-8 ps-4">
-        {publishData.map((item) => (
+        {publishData.map((item, index) => (
           <PublishIcon
             key={item.id}
             title={item.title}
             value={item.value}
+            icon={iconList[index]}
           />
         ))}
       </div>
