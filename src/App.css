@@ -26,3 +26,7 @@ a {
   color: #245a70 !important;
   text-decoration: none !important;
 }
+
+.display-flex {
+  display: flex;
+}
