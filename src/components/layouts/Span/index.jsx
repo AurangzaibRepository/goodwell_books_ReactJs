@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,11 +7,17 @@ function Span({
   id,
   classIdentifier,
 }) {
-  return ();
-};
+  return (
+    <span id={id} className={classIdentifier}>
+      {value}
+    </span>
+  );
+}
 
 Span.propTypes = {
   value: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
 };
 
 Span.defaultProps = {
