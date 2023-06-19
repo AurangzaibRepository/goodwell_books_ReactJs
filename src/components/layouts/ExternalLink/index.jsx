@@ -8,7 +8,7 @@ function ExternalLink({
   classIdentifier,
 }) {
   return (
-    <a href={url}>
+    <a href={url} className={classIdentifier}>
       {title}
     </a>
   );
