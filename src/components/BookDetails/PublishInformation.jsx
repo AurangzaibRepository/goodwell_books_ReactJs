@@ -24,7 +24,7 @@ function PublishInformation({ publishData, requestLink }) {
 }
 
 PublishInformation.propTypes = {
-  publishData: PropTypes.objectOf(PropTypes.shape).isRequired,
+  publishData: PropTypes.instanceOf(Array).isRequired,
   requestLink: PropTypes.string.isRequired,
 };
 
