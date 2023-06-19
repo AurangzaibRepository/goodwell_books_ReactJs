@@ -29,7 +29,7 @@ function PublishInformation({ publishData, requestLink }) {
           title="REQUEST DESK/EXAM COPY"
         />
       </div>
-      <div className="col-md-8 ps-4">
+      <div className="col-md-8 ps-4 display-flex">
         {publishData.map((item, index) => (
           <PublishIcon
             key={item.id}
