@@ -9,4 +9,10 @@ function PublishIcon({
   return ();
 }
 
+PublishIcon.propTypes = {
+  title: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+  icon: PropTypes.node.isRequired,
+};
+
 export default PublishIcon;
