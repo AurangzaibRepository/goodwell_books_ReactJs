@@ -9,7 +9,7 @@ function PublishIcon({
   value,
 }) {
   return (
-    <div className="dv-publish-icon">
+    <div className="dv-publish-icon text-center">
       <span>{title}</span>
       <br />
       <FontAwesomeIcon icon={icon} />
