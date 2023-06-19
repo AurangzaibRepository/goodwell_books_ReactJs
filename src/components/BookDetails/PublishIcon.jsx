@@ -11,6 +11,7 @@ function PublishIcon({
   return (
     <div className="dv-publish-icon">
       <span>{title}</span>
+      <FontAwesomeIcon icon={icon} />
       <span>{value}</span>
     </div>
   );
