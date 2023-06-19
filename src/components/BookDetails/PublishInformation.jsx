@@ -1,6 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  faCalendar,
+  faPager,
+  faBarcode
+} from '@fortawesome/free-solid-svg-icons';
 import ExternalLink from '../layouts/ExternalLink';
 import PublishIcon from './PublishIcon';
 
