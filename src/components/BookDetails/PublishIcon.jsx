@@ -20,7 +20,7 @@ function PublishIcon({
 PublishIcon.propTypes = {
   title: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
-  icon: PropTypes.node.isRequired,
+  icon: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
 export default PublishIcon;
