@@ -6,7 +6,10 @@ import Label from '../layouts/Label';
 function BuyBookLinks({ buyLinks }) {
   return (
     <div id="dv-buy-book-links">
-      
+      <Label
+        value="Buy the Book"
+        id="label-buy-book"
+      />
     </div>
   );
 }
