@@ -13,4 +13,9 @@ Span.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
+Span.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Span;
