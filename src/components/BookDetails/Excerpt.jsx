@@ -5,11 +5,14 @@ import Label from '../layouts/Label';
 
 function Excerpt({ link }) {
   return (
-    <Label
-      value="LISTEN TO AN EXCERPT"
-      id="label-excerpt"
-      class="d-block text-center"
-    />
+    <div className="text-center pt-4" id="dv-excerpt">
+      <Label
+        value="LISTEN TO AN EXCERPT"
+        id="label-excerpt"
+        classIdentifier="d-block text-center"
+      />
+      <iframe src={link} title="excerpt" className="mt-3" />
+    </div>
   );
 }
 
