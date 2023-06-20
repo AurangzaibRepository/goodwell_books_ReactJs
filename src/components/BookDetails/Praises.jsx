@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Praises() {
+function Praises({ praises }) {
   return ();
 }
 
