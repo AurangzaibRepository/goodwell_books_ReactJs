@@ -13,7 +13,10 @@ function Excerpt({ link }) {
         classIdentifier="d-block text-center"
       />
       <iframe src={link} title="excerpt" className="mt-3" />
-      <p>TALKING TO STRANGERS</p>
+      <Span
+        value="TALING TO STRANGERS"
+        classIdentifier="d-block"
+      />
     </div>
   );
 }
