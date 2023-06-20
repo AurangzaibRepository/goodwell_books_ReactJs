@@ -5,6 +5,7 @@ import PublishInformation from './PublishInformation';
 import Description from './Description';
 import BuyBookLinks from './BuyBookLinks';
 import Excerpt from './Excerpt';
+import Praises from './Praises';
 import BookInfoService from '../../services/BookInfoService';
 import './style.css';
 
