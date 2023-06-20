@@ -20,4 +20,9 @@ Paragraph.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+Paragraph.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Paragraph;
