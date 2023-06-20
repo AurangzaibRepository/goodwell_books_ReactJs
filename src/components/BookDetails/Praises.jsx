@@ -15,13 +15,16 @@ function Praises({ praises }) {
         classIdentifier="sub-title pt-3"
       />
       {praises.map((item) => (
-        <p key={item.id} className="mb-4 pb-2">
+        <Paragraph
+          key={item.id}
+          classIdentifier="mb-4 pb-2"
+        >
           {'"'}
           {ReactHtmlParser(item.message)}
           {' - '}
           {ReactHtmlParser(item.author)}
           {'"'}
-        </p>
+        </Paragraph>
       ))}
     </>
   );
