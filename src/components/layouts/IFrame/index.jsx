@@ -9,4 +9,10 @@ function IFrame({
   return ();
 }
 
+IFrame.propTypes = {
+  src: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
+};
+
 export default IFrame;
