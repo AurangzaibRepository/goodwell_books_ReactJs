@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
 import Label from '../layouts/Label';
+import Paragraph from '../layouts/Paragraph';
 
 function Praises({ praises }) {
   return (
