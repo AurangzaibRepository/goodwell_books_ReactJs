@@ -39,6 +39,7 @@ function BookDetails() {
           />
           <Description description={data.description} />
           <BuyBookLinks buyLinks={data.buy_links} />
+          <Excerpt link={data.excerpt_link} />
         </>
       )}
     </div>
