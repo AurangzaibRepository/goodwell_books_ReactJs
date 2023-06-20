@@ -10,11 +10,11 @@ function BuyBookLinks({ buyLinks }) {
       <Label
         value="Buy the Book"
         id="label-buy-book"
-        classIdentifier="sub-title"
+        classIdentifier="sub-title mb-0"
       />
       <div className="row d-flex justify-content-center">
         {buyLinks.map((item) => (
-          <div className="col-md-4 text-center" key={item.id}>
+          <div className="col-md-4 text-center mt-4 pt-3" key={item.id}>
             <ExternalLink
               url={item.link}
               title={item.title}
