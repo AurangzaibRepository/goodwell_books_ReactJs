@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -22,6 +23,11 @@ IFrame.propTypes = {
   title: PropTypes.string.isRequired,
   id: PropTypes.string,
   classIdentifier: PropTypes.string,
+};
+
+IFrame.defaultProps = {
+  id: '',
+  classIdentifier: '',
 };
 
 export default IFrame;
