@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../layouts/Label';
 import Span from '../layouts/Span';
+import IFrame from '../layouts/IFrame';
 
 function Excerpt({ link }) {
   return (
