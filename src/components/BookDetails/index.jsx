@@ -43,6 +43,11 @@ function BookDetails() {
           <BuyBookLinks buyLinks={data.buy_links} />
           <Excerpt link={data.excerpt_link} />
           <Praises praises={data.praises} />
+          <IFrame
+            src={data.trailer_link}
+            title="Trailer"
+            id="iframe-trailer"
+          />
         </>
       )}
     </div>
