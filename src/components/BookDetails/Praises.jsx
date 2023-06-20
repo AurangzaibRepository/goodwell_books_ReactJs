@@ -5,11 +5,16 @@ import Label from '../layouts/Label';
 
 function Praises({ praises }) {
   return (
-    <Label
-      value="Praise"
-      id="label-praises"
-      classIdentifier="sub-title"
-    />
+    <>
+      <Label
+        value="Praise"
+        id="label-praises"
+        classIdentifier="sub-title"
+      />
+      {praises.map((item) => (
+        <p key={item.id}>{`"${item.message}" - ${item.author}`}</p>
+      ))}
+    </>
   );
 }
 
