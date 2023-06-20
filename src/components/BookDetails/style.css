@@ -62,6 +62,11 @@
     padding: 16px;
 }
 
+#dv-book-details #dv-publish-information a:hover,
+#dv-book-details #dv-buy-book-links a:hover {
+    background: #555;
+}
+
 #dv-book-details #dv-publish-information span {
     color: #000;
     display: inline-block;
