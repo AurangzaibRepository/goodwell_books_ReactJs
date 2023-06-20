@@ -93,3 +93,9 @@
     padding: 10px;
     text-transform: uppercase;
 }
+
+@media (min-width: 1400px) {
+    #dv-book-details #dv-buy-book-links #dv-links-container {
+        max-width: 1150px;
+    }
+}
