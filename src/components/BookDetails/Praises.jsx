@@ -5,4 +5,8 @@ function Praises({ praises }) {
   return ();
 }
 
+Praises.propTypes = {
+  priases: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default Praises;
