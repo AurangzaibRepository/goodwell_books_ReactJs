@@ -12,4 +12,8 @@ function Excerpt({ link }) {
   );
 }
 
+Excerpt.propTypes = {
+  link: PropTypes.string.isRequired,
+};
+
 export default Excerpt;
