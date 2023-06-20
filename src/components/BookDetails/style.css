@@ -78,7 +78,8 @@
     width: 50px;
 }
 
-#dv-book-details #label-description {   
+#dv-book-details #label-description,
+#dv-book-details #label-excerpt {   
     color: #33526f;
     font-size: 25px;
     font-weight: bold;
