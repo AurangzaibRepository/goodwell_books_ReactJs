@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-curly-brace-presence */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -10,10 +11,16 @@ function Praises({ praises }) {
       <Label
         value="Praise"
         id="label-praises"
-        classIdentifier="sub-title"
+        classIdentifier="sub-title pt-3"
       />
       {praises.map((item) => (
-        <p key={item.id}>{`"${item.message}" - ${item.author}`}</p>
+        <p key={item.id} className="mb-4 pb-2">
+          {'"'}
+          {ReactHtmlParser(item.message)}
+          {' - '}
+          {ReactHtmlParser(item.author)}
+          {'"'}
+        </p>
       ))}
     </>
   );
