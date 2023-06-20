@@ -100,7 +100,7 @@
     text-transform: uppercase;
 }
 
-#dv-book-details #dv-excerpt {
+#dv-book-details #dv-excerpt iframe {
     height: 430px;
     width: 35%;
 }
