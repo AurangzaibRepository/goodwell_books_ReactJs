@@ -112,6 +112,12 @@
     margin-top: 15px;
 }
 
+#dv-book-details #iframe-trailer {
+    height: 550px;
+    margin-top: 50px;
+    width: 100%;
+}
+
 @media (min-width: 1400px) {
     #dv-book-details #dv-buy-book-links #dv-links-container {
         max-width: 1150px;
