@@ -8,6 +8,7 @@ function Excerpt({ link }) {
     <Label
       value="LISTEN TO AN EXCERPT"
       id="label-excerpt"
+      class="d-block text-center"
     />
   );
 }
