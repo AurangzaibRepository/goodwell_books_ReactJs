@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../layouts/Label';
+import Span from '../layouts/Span';
 
 function Excerpt({ link }) {
   return (
@@ -12,6 +13,7 @@ function Excerpt({ link }) {
         classIdentifier="d-block text-center"
       />
       <iframe src={link} title="excerpt" className="mt-3" />
+      <p>TALKING TO STRANGERS</p>
     </div>
   );
 }
