@@ -105,6 +105,12 @@
     width: 35%;
 }
 
+#dv-book-details #dv-excerpt span {
+    color: #245a70;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
 @media (min-width: 1400px) {
     #dv-book-details #dv-buy-book-links #dv-links-container {
         max-width: 1150px;
