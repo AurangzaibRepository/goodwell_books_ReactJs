@@ -100,6 +100,11 @@
     text-transform: uppercase;
 }
 
+#dv-book-details #dv-excerpt {
+    height: 430px;
+    width: 35%;
+}
+
 @media (min-width: 1400px) {
     #dv-book-details #dv-buy-book-links #dv-links-container {
         max-width: 1150px;
