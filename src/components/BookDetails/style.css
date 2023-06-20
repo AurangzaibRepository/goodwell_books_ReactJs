@@ -51,7 +51,8 @@
     text-decoration: underline !important;
 }
 
-#dv-book-details #dv-publish-information a {
+#dv-book-details #dv-publish-information a,
+#dv-book-details #dv-buy-book-links a {
     background: #00bef4;
     border-radius: 4px;
     color: #fff !important;
@@ -86,4 +87,9 @@
     font-size: 2rem;
     margin: 50px 0px 18px;
     text-align: center;
+}
+
+#dv-book-details #dv-buy-book-links a {
+    padding: 10px;
+    text-transform: uppercase;
 }
