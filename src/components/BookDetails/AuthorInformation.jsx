@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../layouts/Image';
 import Label from '../layouts/Label';
+import Paragraph from '../layouts/Paragraph';
 import picture from '../../assets/about/sloman.webp';
 
 function AuthorInformation({ authorInformation }) {
@@ -15,7 +16,10 @@ function AuthorInformation({ authorInformation }) {
         />
       </div>
       <div className="col-md-8">
-
+        <Label
+          value={`MEET THE AUTHOR: ${authorInformation.name}`}
+          classIdentifier="sub-title"
+        />
       </div>
     </div>
   );
