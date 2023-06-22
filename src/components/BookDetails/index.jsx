@@ -7,6 +7,7 @@ import BuyBookLinks from './BuyBookLinks';
 import Excerpt from './Excerpt';
 import Praises from './Praises';
 import IFrame from '../layouts/IFrame';
+import AuthorInformation from './AuthorInformation';
 import BookInfoService from '../../services/BookInfoService';
 import './style.css';
 
