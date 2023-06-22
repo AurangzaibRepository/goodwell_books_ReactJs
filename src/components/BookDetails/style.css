@@ -142,6 +142,10 @@
     border-top: 1px solid #e6e5e5;
 }
 
+#dv-book-details #dv-related-articles {
+    margin-top: 80px;
+}
+
 @media (min-width: 1400px) {
     #dv-book-details #dv-buy-book-links #dv-links-container {
         max-width: 1150px;
