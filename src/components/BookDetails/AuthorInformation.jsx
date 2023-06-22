@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactHtmlParser from 'react-html-parser';
 import Image from '../layouts/Image';
 import Label from '../layouts/Label';
 import Paragraph from '../layouts/Paragraph';
@@ -20,6 +21,9 @@ function AuthorInformation({ authorInformation }) {
           value={`MEET THE AUTHOR: ${authorInformation.name}`}
           classIdentifier="sub-title"
         />
+        <Paragraph>
+          {authorInformation.description}
+        </Paragraph>
       </div>
     </div>
   );
