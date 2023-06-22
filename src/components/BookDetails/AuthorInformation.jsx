@@ -29,6 +29,9 @@ function AuthorInformation({ authorInformation }) {
           id="label-article"
           classIdentifier="mt-5 pt-2 d-block"
         />
+        <Paragraph classIdentifier="mt-3">
+          {ReactHtmlParser(authorInformation.articles)}
+        </Paragraph>
       </div>
     </div>
   );
