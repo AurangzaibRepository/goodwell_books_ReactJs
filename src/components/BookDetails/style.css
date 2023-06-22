@@ -134,7 +134,11 @@
 }
 
 #dv-book-details #dv-author-information label {
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+#dv-book-details #dv-author-information #label-article {
+    border-top: 1px solid #e6e5e5;
 }
 
 @media (min-width: 1400px) {
