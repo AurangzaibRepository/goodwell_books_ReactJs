@@ -21,8 +21,8 @@ function AuthorInformation({ authorInformation }) {
           value={`MEET THE AUTHOR: ${authorInformation.name}`}
           classIdentifier="sub-title"
         />
-        <Paragraph>
-          {authorInformation.description}
+        <Paragraph classIdentifier="mt-3">
+          {ReactHtmlParser(authorInformation.description)}
         </Paragraph>
       </div>
     </div>
