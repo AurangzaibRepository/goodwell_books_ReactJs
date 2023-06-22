@@ -1,12 +1,18 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function AuthorInformation({ authorInformation }) {
-  return ();
+  return (
+    <div className="row" id="dv-author-information">
+      <div className="col-md-6"></div>
+      <div className="col-md-6"></div>
+    </div>
+  );
 }
 
 AuthorInformation.propTypes = {
-  authorInformation: PropTypes.object.isRequired,
+  authorInformation: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
 export default AuthorInformation;
