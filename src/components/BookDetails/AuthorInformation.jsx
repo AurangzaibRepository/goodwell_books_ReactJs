@@ -10,13 +10,13 @@ import picture from '../../assets/about/sloman.webp';
 function AuthorInformation({ authorInformation }) {
   return (
     <div className="row" id="dv-author-information">
-      <div className="col-md-4">
+      <div className="col-md-4 text-center">
         <Image
           src={picture}
           alt="author"
         />
       </div>
-      <div className="col-md-8 ps-4">
+      <div className="col-md-8 ps-0">
         <Label
           value={`MEET THE AUTHOR: ${authorInformation.name}`}
           classIdentifier="sub-title"
