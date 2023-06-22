@@ -30,11 +30,15 @@ function RelatedArticles() {
 
   return (
     <div id="dv-related-articles">
-      <Carousel>
-        {imageList.map((item, index) => (
-          <div>
+      <Carousel
+        showStatus={false}
+        autoPlay
+        infiniteLoop
+      >
+        {imageList.map((item) => (
+          <div key={item.id}>
             <Image
-              src={imageList[index]}
+              src={item.image}
               alt="Image"
             />
           </div>
