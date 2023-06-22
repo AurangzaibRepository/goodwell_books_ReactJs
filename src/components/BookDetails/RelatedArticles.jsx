@@ -10,10 +10,22 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function RelatedArticles() {
   const imageList = [
-    Image1,
-    Image2,
-    Image3,
-    Image4,
+    {
+      id: 1,
+      image: Image1,
+    },
+    {
+      id: 2,
+      image: Image2,
+    },
+    {
+      id: 3,
+      image: Image3,
+    },
+    {
+      id: 4,
+      image: Image4,
+    },
   ];
 
   return (
