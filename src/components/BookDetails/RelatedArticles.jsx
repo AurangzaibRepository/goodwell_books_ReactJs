@@ -38,6 +38,7 @@ function RelatedArticles() {
       />
       <Carousel
         showStatus={false}
+        width="75%"
         autoPlay
         infiniteLoop
       >
