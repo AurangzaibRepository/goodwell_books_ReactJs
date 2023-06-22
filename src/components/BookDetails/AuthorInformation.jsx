@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../layouts/Image';
+import picture from '../../assets/about/sloman.webp';
 
 function AuthorInformation({ authorInformation }) {
   return (
