@@ -16,7 +16,7 @@ function AuthorInformation({ authorInformation }) {
           alt="author"
         />
       </div>
-      <div className="col-md-8">
+      <div className="col-md-8 ps-4">
         <Label
           value={`MEET THE AUTHOR: ${authorInformation.name}`}
           classIdentifier="sub-title"
