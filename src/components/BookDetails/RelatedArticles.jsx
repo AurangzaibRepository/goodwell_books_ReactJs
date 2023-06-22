@@ -16,16 +16,18 @@ function RelatedArticles() {
   ];
 
   return (
-    <Carousel>
-      {imageList.map((item, index) => (
-        <div>
-          <Image
-            src={imageList[index]}
-            alt="Image"
-          />
-        </div>
-      ))}
-    </Carousel>
+    <div id="dv-related-articles">
+      <Carousel>
+        {imageList.map((item, index) => (
+          <div>
+            <Image
+              src={imageList[index]}
+              alt="Image"
+            />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 }
 
