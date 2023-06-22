@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../layouts/Image';
 import Image from '../../assets/books/book1.webp';
 
 function Banner() {
