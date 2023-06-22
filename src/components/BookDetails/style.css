@@ -119,7 +119,13 @@
 }
 
 #dv-book-details #dv-author-information {
-    margin-top: 50px;
+    border: 1px solid #f1f1f1;
+    margin-top: 80px;
+    padding: 2.5rem 1.25rem;
+}
+
+#dv-book-details #dv-author-information img {
+    width: 100%;
 }
 
 @media (min-width: 1400px) {
