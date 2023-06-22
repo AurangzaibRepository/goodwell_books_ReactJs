@@ -26,3 +26,11 @@ a {
   color: #245a70 !important;
   text-decoration: none !important;
 }
+
+.carousel .slide img {
+  height: 100%;
+}
+
+.carousel-root .slide div {
+  height: 100%;
+}
