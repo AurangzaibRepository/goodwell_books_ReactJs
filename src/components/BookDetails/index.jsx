@@ -49,6 +49,7 @@ function BookDetails() {
             title="Trailer"
             id="iframe-trailer"
           />
+          <AuthorInformation authorInformation={data.author_information} />
         </>
       )}
     </div>
