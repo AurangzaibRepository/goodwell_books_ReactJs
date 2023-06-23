@@ -33,7 +33,7 @@ function Home() {
           <div className="dv-section">
             <About />
           </div>
-          <RecommendedBooks link={data.recommended_links} />
+          <RecommendedBooks links={data.recommended_links} />
         </>
       )}
     </div>
