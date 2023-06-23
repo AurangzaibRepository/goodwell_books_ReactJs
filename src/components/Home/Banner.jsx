@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Label from '../layouts/Label';
 import Image from '../layouts/Image';
 import BannerImage from '../../assets/books/book1.webp';
 
@@ -18,6 +19,7 @@ function Banner({
         />
       </div>
       <div className="col-md-6 d-flex align-items-center">
+
       </div>
     </div>
   );
