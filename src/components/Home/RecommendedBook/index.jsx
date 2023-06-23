@@ -13,6 +13,7 @@ function RecommendedBook({
       <div className="col-md-6">
       </div>
       <div className="col-md-6">
+        <UpcomingEvents />
       </div>
     </div>
   );
