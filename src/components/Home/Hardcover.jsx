@@ -5,10 +5,16 @@ function Hardcover() {
   return (
     <div className="row mt-4">
       <div className="col-md-6">
-
+        <Label
+          value="Buy the Hardcover and eBook"
+          classIdentifier="sub-title"
+        />
       </div>
       <div className="col-md-6">
-
+        <Label
+          value="Buy the Audiobook"
+          classIdentifier="sub-title"
+        />
       </div>
     </div>
   );
