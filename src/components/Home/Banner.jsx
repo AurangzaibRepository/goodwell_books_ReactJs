@@ -13,7 +13,7 @@ function Banner({
 }) {
   return (
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-6 text-center">
         <Image
           src={BannerImage}
           alt="Image"
