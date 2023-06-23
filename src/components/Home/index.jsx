@@ -21,11 +21,14 @@ function Home() {
     <div id="dv-home">
       {data
       && (
-        <Banner
-          title={data.Banner.title}
-          subTitle={data.Banner.sub_title}
-          caption={data.Banner.caption}
-        />
+        <>
+          <Banner
+            title={data.Banner.title}
+            subTitle={data.Banner.sub_title}
+            caption={data.Banner.caption}
+          />
+          <Hardcover />
+        </>
       )}
     </div>
   );
