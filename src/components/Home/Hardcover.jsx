@@ -26,6 +26,11 @@ function Hardcover() {
           value="Buy the Audiobook"
           classIdentifier="sub-title"
         />
+        <ExternalLink
+          url="#"
+          title="PUSHKIN AUDIOBOOK"
+          classIdentifier="mt-5"
+        />
       </div>
     </div>
   );
