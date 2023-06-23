@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import HomeService from '../../services/HomeService';
+import Banner from './Banner';
 
 function Home() {
   const [data, setData] = useState();
@@ -14,7 +15,9 @@ function Home() {
     getData();
   }, []);
 
-  return ();
+  return (
+
+  );
 }
 
 export default Home;
