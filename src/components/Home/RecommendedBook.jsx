@@ -9,4 +9,10 @@ function RecommendedBook({
   return ();
 }
 
+RecommendedBook.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+  capion: PropTypes.string.isRequired,
+};
+
 export default RecommendedBook;
