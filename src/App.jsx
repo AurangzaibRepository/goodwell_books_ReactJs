@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <div id="dv-main">
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
           <Route path="/book/:title" element={<BookDetails />} />
           <Route path="/about" element={<About />} />
