@@ -27,15 +27,17 @@ function RecommendedBooks({ links }) {
       />
       <div className="row">
         {links.map((item, index) => (
-          <ExternalLink
-            url={item.link}
-          >
-            <Image
-              src={imageList[index]}
-              alt="Image"
-              classIdentifier="col"
-            />
-          </ExternalLink>
+          <div className="col" key={item.id}>
+            <ExternalLink
+              url={item.link}
+            >
+              <Image
+                src={imageList[index]}
+                alt="Image"
+                classIdentifier="col"
+              />
+            </ExternalLink>
+          </div>
         ))}
       </div>
     </div>
