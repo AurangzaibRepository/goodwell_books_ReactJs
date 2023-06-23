@@ -12,7 +12,10 @@ function RecommendedBook({
   return (
     <div className="row dv-section" id="dv-recommended-book">
       <div className="col-md-6">
-        asd
+        <Image
+          src={BookCover}
+          alt="BookCover"
+        />
       </div>
       <div className="col-md-6">
       </div>
