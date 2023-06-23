@@ -2,6 +2,28 @@
     "Banner": {
         "title": "A Dream, a Temptation, and the Longest Night of the Second World War",
         "sub_title": "The Bomber Mafia",
-        "caption": "Malcolm Gladwell’s exploration of how technology and best intentions collide in the heat of war",
-    }
+        "caption": "Malcolm Gladwell’s exploration of how technology and best intentions collide in the heat of war"
+    },
+    "recommended_links": [
+        {
+            "id": 1,
+            "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/david-and-goliath/9780316204378/"
+        },
+        {
+            "id": 2,
+            "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/what-the-dog-saw/9780316076203/"
+        },
+        {
+            "id": 3,
+            "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/outliers/9780316017930/"
+        },
+        {
+            "id": 4,
+            "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316005043/"
+        },
+        {
+            "id": 5,
+            "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/the-tipping-point/9780316346627/"
+        }
+    ]
 }
