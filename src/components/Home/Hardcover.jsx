@@ -10,6 +10,16 @@ function Hardcover() {
           value="Buy the Hardcover and eBook"
           classIdentifier="sub-title"
         />
+        <ExternalLink
+          url="#"
+          title="EBOOK"
+          classIdentifier="mt-5"
+        />
+        <ExternalLink
+          url="#"
+          title="HARDCOVER"
+          classIdentifier="mt-4"
+        />
       </div>
       <div className="col-md-6">
         <Label
