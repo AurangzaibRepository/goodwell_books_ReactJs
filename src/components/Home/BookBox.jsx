@@ -6,14 +6,16 @@ import Image from '../layouts/Image';
 
 function BookBox({ url, src }) {
   return (
-    <ExternalLink
-      url={url}
-    >
-      <Image
-        src={src}
-        alt="Image"
-      />
-    </ExternalLink>
+    <div className="col text-center">
+      <ExternalLink
+        url={url}
+      >
+        <Image
+          src={src}
+          alt="Image"
+        />
+      </ExternalLink>
+    </div>
   );
 }
 
