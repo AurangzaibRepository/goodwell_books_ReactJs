@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ExternalLink from '../layouts/ExternalLink';
 
 function BookBox({ url, src }) {
-  return ();
+  return (
+
+  );
 }
 
 BookBox.propTypes = {
