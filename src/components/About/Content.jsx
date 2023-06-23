@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Image from '../layouts/Image';
 import Label from '../layouts/Label';
+import Paragraph from '../layouts/Paragraph';
 import SocialMediaIcons from './SocialMediaIcons';
 import picture from '../../assets/about/sloman.webp';
 
