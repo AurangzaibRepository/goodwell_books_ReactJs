@@ -22,6 +22,7 @@ ExternalLink.propTypes = {
 
 ExternalLink.defaultProps = {
   classIdentifier: '',
+  title: '',
 };
 
 export default ExternalLink;
