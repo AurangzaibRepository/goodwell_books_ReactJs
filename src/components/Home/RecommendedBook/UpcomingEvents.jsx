@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from '../../layouts/Label';
+import Paragraph from '../../layouts/Paragraph';
 
 function UpcomingEvents() {
   return (
