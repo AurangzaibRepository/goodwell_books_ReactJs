@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../layouts/Label';
+import Span from '../layouts/Span';
 import Image from '../layouts/Image';
 import BannerImage from '../../assets/books/book1.webp';
 
