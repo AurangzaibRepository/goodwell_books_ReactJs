@@ -19,7 +19,14 @@ function Banner({
         />
       </div>
       <div className="col-md-6 d-flex align-items-center">
-
+        <Label
+          value={title}
+          id="label-title"
+        />
+        <Label
+          value={subTitle}
+          id="label-subtitle"
+        />
       </div>
     </div>
   );
