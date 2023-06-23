@@ -22,4 +22,10 @@ function Banner({
   );
 }
 
+Banner.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
+};
+
 export default Banner;
