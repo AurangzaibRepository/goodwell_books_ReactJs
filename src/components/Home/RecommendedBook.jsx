@@ -7,7 +7,7 @@ function RecommendedBook({
   caption,
 }) {
   return (
-    <div className="row dv-section">
+    <div className="row dv-section" id="dv-recommended-book">
       <div className="col-md-6">
       </div>
       <div className="col-md-6">
