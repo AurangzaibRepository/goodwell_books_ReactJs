@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import BookCover from '../../assets/books/book1.webp';
 
 function RecommendedBook({
   title,
@@ -9,6 +11,7 @@ function RecommendedBook({
   return (
     <div className="row dv-section" id="dv-recommended-book">
       <div className="col-md-6">
+        asd
       </div>
       <div className="col-md-6">
       </div>
