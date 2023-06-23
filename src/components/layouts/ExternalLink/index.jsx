@@ -6,6 +6,7 @@ function ExternalLink({
   url,
   title,
   classIdentifier,
+  children,
 }) {
   return (
     <a href={url} className={classIdentifier}>
