@@ -6,6 +6,10 @@ import Label from '../layouts/Label';
 function RecommendedBooks({ links }) {
   return (
     <div className="dv-section">
+      <Label
+        value="Also by Malcolm Gladwell"
+        clasIdentifier="title"
+      />
     </div>
   );
 }
