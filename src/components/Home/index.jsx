@@ -16,7 +16,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div id="dv-home">
       {data
       && (
         <Banner
