@@ -28,6 +28,9 @@ function Banner({
           value={subTitle}
           id="label-subtitle"
         />
+        <Span
+          value={caption}
+        />
       </div>
     </div>
   );
