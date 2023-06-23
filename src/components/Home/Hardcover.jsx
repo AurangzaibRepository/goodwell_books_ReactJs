@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from '../layouts/Label';
+import ExternalLink from '../layouts/ExternalLink';
 
 function Hardcover() {
   return (
