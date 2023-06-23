@@ -4,7 +4,11 @@ import PropTypes from 'prop-types';
 import Image from '../layouts/Image';
 import BannerImage from '../../assets/books/book1.webp';
 
-function Banner() {
+function Banner({
+  title,
+  subTitle,
+  caption,
+}) {
   return (
     <div className="row">
       <div className="col-md-6">
