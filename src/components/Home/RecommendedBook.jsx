@@ -6,13 +6,20 @@ function RecommendedBook({
   subTitle,
   caption,
 }) {
-  return ();
+  return (
+    <div className="row dv-section">
+      <div className="col-md-6">
+      </div>
+      <div className="col-md-6">
+      </div>
+    </div>
+  );
 }
 
 RecommendedBook.propTypes = {
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string.isRequired,
-  capion: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
 };
 
 export default RecommendedBook;
