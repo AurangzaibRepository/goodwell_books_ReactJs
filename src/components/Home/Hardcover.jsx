@@ -3,7 +3,7 @@ import Label from '../layouts/Label';
 
 function Hardcover() {
   return (
-    <div className="row mt-4">
+    <div className="row dv-section">
       <div className="col-md-6">
         <Label
           value="Buy the Hardcover and eBook"
