@@ -27,7 +27,7 @@ function RecommendedBooks({ links }) {
       />
       <div className="row mt-4 pt-3">
         {links.map((item, index) => (
-          <div className="col" key={item.id}>
+          <div className="col text-center" key={item.id}>
             <ExternalLink
               url={item.link}
             >
