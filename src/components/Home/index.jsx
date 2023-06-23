@@ -35,6 +35,11 @@ function Home() {
             <About />
           </div>
           <RecommendedBooks links={data.recommended_links} />
+          <RecommendedBook
+            title={data.recommended_book.title}
+            subTitle={data.recommended_book.sub_title}
+            caption={data.recommended_book.caption}
+          />
         </>
       )}
     </div>
