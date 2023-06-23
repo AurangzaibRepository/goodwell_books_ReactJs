@@ -1,3 +1,11 @@
 #dv-home #image-banner {
     width: 50%;
 }
+
+#dv-home #dv-banner #label-title {
+    color: #000;
+    font-size: 1.688rem;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
