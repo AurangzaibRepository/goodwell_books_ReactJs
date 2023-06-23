@@ -11,6 +11,7 @@ function ExternalLink({
   return (
     <a href={url} className={classIdentifier}>
       {title}
+      {children}
     </a>
   );
 }
