@@ -39,6 +39,7 @@ function Banner({
           <ExternalLink
             url="#"
             title="LEARN MORE"
+            classIdentifier="link-home"
           />
         </div>
       </div>
