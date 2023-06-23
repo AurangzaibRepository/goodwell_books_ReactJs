@@ -17,6 +17,7 @@ function Banner({
         <Image
           src={BannerImage}
           alt="Image"
+          id="image-banner"
         />
       </div>
       <div className="col-md-6 d-flex align-items-center">
