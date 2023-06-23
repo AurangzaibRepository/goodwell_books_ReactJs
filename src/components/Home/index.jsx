@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import HomeService from '../../services/HomeService';
 import Banner from './Banner';
 import Hardcover from './Hardcover';
+import About from '../About';
 import './style.css';
 
 function Home() {
@@ -28,6 +29,9 @@ function Home() {
             caption={data.Banner.caption}
           />
           <Hardcover />
+          <div className="dv-section">
+            <About />
+          </div>
         </>
       )}
     </div>
