@@ -23,3 +23,14 @@
     font-size: 26px;
     margin-top: 8px;
 }
+
+#dv-home #dv-banner a {
+    background: #00bef4;
+    border-radius: 4px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 16px;
+}
