@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function RecommendedBook() {
+function RecommendedBook({
+  title,
+  subTitle,
+  caption,
+}) {
   return ();
 }
 
