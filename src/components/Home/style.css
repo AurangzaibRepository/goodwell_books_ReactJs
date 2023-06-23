@@ -46,3 +46,8 @@
     border-width: 0 0 0 2px;
     padding: 2rem;
 }
+
+#dv-home #dv-recommended-book {
+    border-top: 2px solid #00bef4;
+    padding: 2rem;
+}
