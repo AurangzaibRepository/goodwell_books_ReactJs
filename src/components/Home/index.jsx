@@ -21,7 +21,7 @@ function Home() {
       && (
         <Banner
           title={data.Banner.title}
-          subTitle={data.Banner.subTitle}
+          subTitle={data.Banner.sub_title}
           caption={data.Banner.caption}
         />
       )}
