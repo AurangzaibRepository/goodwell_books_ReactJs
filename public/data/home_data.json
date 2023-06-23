@@ -25,5 +25,10 @@
             "id": 5,
             "link": "https://www.gladwellbooks.com/titles/malcolm-gladwell/the-tipping-point/9780316346627/"
         }
-    ]
+    ],
+    "recommended_book": {
+        "title": "Talking to Strangers",
+        "sub_Title": "Malcolm Gladwell",
+        "caption": "Malcolm Gladwell, host of the podcast <i>Revisionist</i> History and author of the #1 <i>New York Times</i> bestseller <i>Outliers</i>, offers a powerful examination of our"
+    }
 }
