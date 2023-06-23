@@ -16,7 +16,16 @@ function Home() {
   }, []);
 
   return (
-
+    <div>
+      {data
+      && (
+        <Banner
+          title={data.Banner.title}
+          subTitle={data.Banner.subTitle}
+          caption={data.Banner.caption}
+        />
+      )}
+    </div>
   );
 }
 
