@@ -29,11 +29,11 @@ function Content({ title, description }) {
               value="Events"
               classIdentifier="sub-title mt-4 mb-2"
             />
-            <p>
+            <Paragraph>
               {'Malcolm Gladwell is going on tour. '}
               <Link to="/events">Click here</Link>
               {' to find out where he’ll be.'}
-            </p>
+            </Paragraph>
           </div>
         </div>
       </div>
