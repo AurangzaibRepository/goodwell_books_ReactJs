@@ -4,7 +4,7 @@ import Banner from './Banner';
 import Hardcover from './Hardcover';
 import About from '../About';
 import RecommendedBooks from './RecommendedBooks';
-import RecommendedBook from './RecommendedBook';
+import RecommendedBook from './RecommendedBook/RecommendedBook';
 import './style.css';
 
 function Home() {
