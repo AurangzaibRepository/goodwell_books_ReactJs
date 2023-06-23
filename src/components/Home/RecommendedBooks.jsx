@@ -9,6 +9,14 @@ import Image4 from '../../assets/books/book4.webp';
 import Image5 from '../../assets/books/book5.webp';
 
 function RecommendedBooks({ links }) {
+  const imageList = [
+    Image1,
+    Image2,
+    Image3,
+    Image4,
+    Image5,
+  ];
+
   return (
     <div className="dv-section">
       <Label
