@@ -1,13 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import PropTypes from 'prop-types';
 import UpcomingEvents from './UpcomingEvents';
 
-function RecommendedBook({
-  title,
-  subTitle,
-  caption,
-}) {
+function RecommendedBook() {
   return (
     <div className="row dv-section" id="dv-recommended-book">
       <div className="col-md-6">
@@ -18,11 +13,5 @@ function RecommendedBook({
     </div>
   );
 }
-
-RecommendedBook.propTypes = {
-  title: PropTypes.string.isRequired,
-  subTitle: PropTypes.string.isRequired,
-  caption: PropTypes.string.isRequired,
-};
 
 export default RecommendedBook;
