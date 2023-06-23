@@ -12,7 +12,7 @@ function Banner({
   caption,
 }) {
   return (
-    <div className="row">
+    <div className="row" id="dv-banner">
       <div className="col-md-6 text-center">
         <Image
           src={BannerImage}
