@@ -3,6 +3,7 @@ import HomeService from '../../services/HomeService';
 import Banner from './Banner';
 import Hardcover from './Hardcover';
 import About from '../About';
+import RecommendedBooks from './RecommendedBooks';
 import './style.css';
 
 function Home() {
