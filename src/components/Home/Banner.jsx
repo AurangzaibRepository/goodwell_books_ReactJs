@@ -36,6 +36,10 @@ function Banner({
           <Span
             value={caption}
           />
+          <ExternalLink
+            url="#"
+            title="LEARN MORE"
+          />
         </div>
       </div>
     </div>
