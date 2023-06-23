@@ -13,6 +13,11 @@ function UpcomingEvents() {
       <Paragraph classIdentifier="mt-3">
         Please check back soon for future events.
       </Paragraph>
+      <ExternalLink
+        url="#"
+        title="SEE ALL DATES"
+        classIdentifier="lnk-home mt-4"
+      />
     </>
   );
 }
