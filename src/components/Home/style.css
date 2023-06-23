@@ -28,15 +28,16 @@
     margin-top: 8px;
 }
 
-#dv-home #dv-banner a {
+#dv-home a {
     background: #00bef4;
     border-radius: 4px;
     color: #fff !important;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
-    padding: 16px;
+    padding: 12px 16px;
+    width: fit-content;
 }
 
 #dv-home #dv-hardcover .col-md-6 { 
