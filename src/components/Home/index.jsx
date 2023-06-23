@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import HomeService from '../../services/HomeService';
 import Banner from './Banner';
+import Hardcover from './Hardcover';
+import './style.css';
 
 function Home() {
   const [data, setData] = useState();
