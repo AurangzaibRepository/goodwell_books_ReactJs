@@ -13,12 +13,12 @@ function Hardcover() {
         <ExternalLink
           url="#"
           title="EBOOK"
-          classIdentifier="mt-5"
+          classIdentifier="mt-5 lnk-home"
         />
         <ExternalLink
           url="#"
           title="HARDCOVER"
-          classIdentifier="mt-4"
+          classIdentifier="mt-4 lnk-home"
         />
       </div>
       <div className="col-md-6">
@@ -29,7 +29,7 @@ function Hardcover() {
         <ExternalLink
           url="#"
           title="PUSHKIN AUDIOBOOK"
-          classIdentifier="mt-5"
+          classIdentifier="mt-5 lnk-home"
         />
       </div>
     </div>
