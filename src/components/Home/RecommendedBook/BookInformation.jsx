@@ -1,6 +1,7 @@
 import React from 'react';
 import Label from '../../layouts/Label';
 import Image from '../../layouts/Image';
+import Paragraph from '../../layouts/Paragraph';
 import RecommendedBookContext from '../../../contexts/RecommendedBookContext';
 import BookCover from '../../../assets/books/book2.webp';
 
@@ -14,13 +15,23 @@ function BookInformation() {
         classIdentifier="sub-title"
       />
       <div className="row mt-3">
-        <div className="col-md-6">
+        <div className="col-md-4">
           <Image
             src={BookCover}
             alt="Book Cover"
           />
         </div>
-        <div className="col-md-6"></div>
+        <div className="col-md-6">
+          <Paragraph
+            classIdentifier="mb-0"
+          >
+            {bookData.title}
+          </Paragraph>
+          <Label
+            value={bookData.sub_title}
+            classIdentifier="mt-4 sub-title"
+          />
+        </div>
       </div>
     </>
   );
