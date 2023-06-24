@@ -14,7 +14,12 @@ function BookInformation() {
         classIdentifier="sub-title"
       />
       <div className="row mt-3">
-        <div className="col-md-6"></div>
+        <div className="col-md-6">
+          <Image
+            src={BookCover}
+            alt="Book Cover"
+          />
+        </div>
         <div className="col-md-6"></div>
       </div>
     </>
