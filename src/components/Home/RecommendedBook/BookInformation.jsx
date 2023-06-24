@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser';
 import Label from '../../layouts/Label';
 import Image from '../../layouts/Image';
 import Paragraph from '../../layouts/Paragraph';
@@ -21,7 +22,7 @@ function BookInformation() {
             alt="Book Cover"
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-7">
           <Paragraph
             classIdentifier="mb-0"
           >
@@ -31,6 +32,9 @@ function BookInformation() {
             value={bookData.sub_title}
             classIdentifier="mt-4 sub-title"
           />
+          <Paragraph>
+            {ReactHtmlParser(bookData.caption)}
+          </Paragraph>
         </div>
       </div>
     </>
