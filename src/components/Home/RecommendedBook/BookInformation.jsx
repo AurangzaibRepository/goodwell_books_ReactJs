@@ -1,6 +1,7 @@
 import React from 'react';
 import Label from '../../layouts/Label';
 import RecommendedBookContext from '../../../contexts/RecommendedBookContext';
+import BookCover from '../../../assets/books/book2.webp';
 
 function BookInformation() {
   const { bookData } = React.useContext(RecommendedBookContext);
