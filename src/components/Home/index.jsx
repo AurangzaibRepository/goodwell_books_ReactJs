@@ -1,4 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, {
+  useState,
+  useEffect,
+  useMemo,
+} from 'react';
 import HomeService from '../../services/HomeService';
 import Banner from './Banner';
 import Hardcover from './Hardcover';
@@ -10,6 +14,7 @@ import './style.css';
 
 function Home() {
   const [data, setData] = useState();
+  const bookData = useMemo(() => ({ bookData: data ? data.recommended_book : null }), [data]);
 
   const getData = async () => {
     const homeData = await HomeService.getData();
