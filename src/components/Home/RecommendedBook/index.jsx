@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import BookInformation from './BookInformation';
 import UpcomingEvents from './UpcomingEvents';
 
 function RecommendedBook() {
