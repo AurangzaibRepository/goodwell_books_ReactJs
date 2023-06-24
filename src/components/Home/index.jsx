@@ -5,6 +5,7 @@ import Hardcover from './Hardcover';
 import About from '../About';
 import RecommendedBooks from './RecommendedBooks';
 import RecommendedBook from './RecommendedBook';
+import RecommendedBookContext from '../../contexts/RecommendedBookContext';
 import './style.css';
 
 function Home() {
