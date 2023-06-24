@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from '../../layouts/Label';
+import Image from '../../layouts/Image';
 import RecommendedBookContext from '../../../contexts/RecommendedBookContext';
 import BookCover from '../../../assets/books/book2.webp';
 
