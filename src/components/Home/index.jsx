@@ -36,7 +36,9 @@ function Home() {
             <About />
           </div>
           <RecommendedBooks links={data.recommended_links} />
-          <RecommendedBook />
+          <RecommendedBookContext.Provider value={bookData}>
+            <RecommendedBook />
+          </RecommendedBookContext.Provider>
         </>
       )}
     </div>
