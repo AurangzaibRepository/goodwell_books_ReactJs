@@ -1,0 +1,17 @@
+#dv-footer {
+    padding-bottom:25px;
+    width: 100%;
+}
+
+#dv-footer img {
+    width: 12%;
+}
+
+#dv-footer p {
+    color: #2d2d2d;
+    font-size: 21px;
+}
+
+#dv-footer a {
+    color: #2d2d2d !important;
+}

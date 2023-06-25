@@ -1,0 +1,18 @@
+#dv-about #dv-contents {
+    background-image: url('../../assets/about/background.jpg');
+    border-right: 7px solid #d6df24;
+    background-size: cover;
+    padding: 40px;
+}
+
+#dv-about img {
+    width: 50%;
+}
+
+#dv-about svg {
+    font-size: 36px;
+}
+
+#dv-about a {
+    color: #245a70 !important;
+}

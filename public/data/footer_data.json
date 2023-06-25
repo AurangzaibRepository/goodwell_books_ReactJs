@@ -1,0 +1,24 @@
+{
+    "links": [
+        {
+            "id": 1,
+            "title": "Terms of Use | ",
+            "url": "https://www.hachettebookgroup.com/terms-and-policies/terms-of-use/?_ga=2.223350302.408625558.1686233794-1848420058.1686233788"
+        },
+        {
+            "id": 2,
+            "title": "Privacy Policy | ",
+            "url": "https://www.hachettebookgroup.com/terms-and-policies/privacy-policy/"
+        },
+        {
+            "id": 3,
+            "title": "Contact Us | ",
+            "url": "https://www.hachettebookgroup.biz/contact-us/"
+        },
+        {
+            "id": 4,
+            "title": "Do Not Steal My Personal Information",
+            "url": "https://hbgusa.zendesk.com/hc/en-us/articles/360047685472-HBG-CCPA-Privacy-Rights-Tool"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+#dv-book-details #image-book-cover {
+    width: 100%;
+}
+
+#dv-book-details #book-title {
+    color: #2d2d2d;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+#dv-book-details #book-caption {
+    font-size: 1.8rem;
+    line-height: 35px;
+}
+
+#dv-book-details #dv-cover-links,
+#dv-book-details #dv-buy-links {
+    border-bottom: 1px solid #e6e5e5;
+    border-top: 1px solid #e6e5e5;
+    padding: 20px 0px;
+}
+
+#dv-book-details #dv-cover-links a {
+    background: #00bef4;
+    border-radius: 4px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 6px;
+    padding: 16px;
+}
+
+#dv-book-details #label-price {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#dv-book-details #dv-buy-links label {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+
+#dv-book-details #dv-buy-links a {
+    color: #000 !important;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: underline !important;
+}
+
+#dv-book-details #dv-publish-information a,
+#dv-book-details #dv-buy-book-links a {
+    background: #00bef4;
+    border-radius: 4px;
+    color: #fff !important;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+#dv-book-details #dv-publish-information a:hover,
+#dv-book-details #dv-buy-book-links a:hover {
+    background: #555;
+}
+
+#dv-book-details #dv-publish-information span {
+    color: #000;
+    display: inline-block;
+    font-size: 21px;
+}
+
+#dv-book-details #dv-publish-information svg {
+    height: 44px;
+    width: 50px;
+}
+
+#dv-book-details #label-description,
+#dv-book-details #label-excerpt {   
+    color: #33526f;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 50px 0px 18px;
+    text-transform: uppercase;
+}
+
+#dv-book-details #label-buy-book,
+#dv-book-details #label-praises,
+#dv-book-details #label-related-articles {
+    display: block;
+    font-size: 2rem;
+    margin: 50px 0px 18px;
+    text-align: center;
+}
+
+#dv-book-details #dv-buy-book-links a {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#dv-book-details #dv-excerpt iframe {
+    height: 430px;
+    width: 35%;
+}
+
+#dv-book-details #dv-excerpt span {
+    color: #245a70;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+#dv-book-details #iframe-trailer {
+    height: 550px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#dv-book-details #dv-author-information {
+    border: 1px solid #f1f1f1;
+    margin-top: 80px;
+    padding: 2.5rem 1.25rem;
+}
+
+#dv-book-details #dv-author-information img {
+    height: 400px;
+    width: 80%;
+}
+
+#dv-book-details #dv-author-information p {
+    color: #8c8f94;
+    font-size: 24px;
+}
+
+#dv-book-details #dv-author-information label {
+    font-size: 1.8rem;
+}
+
+#dv-book-details #dv-author-information #label-article {
+    border-top: 1px solid #e6e5e5;
+}
+
+#dv-book-details .carousel-root {
+    display: block;
+    text-align: center;
+}
+
+#dv-book-details .carousel.carousel-slider {
+    display: inline-block;
+}
+
+@media (min-width: 1400px) {
+    #dv-book-details #dv-buy-book-links #dv-links-container {
+        max-width: 1150px;
+    }
+}

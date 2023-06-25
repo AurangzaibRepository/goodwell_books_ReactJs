@@ -1,0 +1,14 @@
+#dv-podcasts img {
+    width: 30%;
+}
+
+#dv-podcasts .caption {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 6px 0px;
+}
+
+#dv-podcasts a {
+    font-size: 25px;
+}
